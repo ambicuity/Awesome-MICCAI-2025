@@ -188,18 +188,26 @@ def update_readme(papers: List[Dict]) -> None:
         print("README.md not found!")
         return
     
+    # If no papers were found, don't update anything to preserve existing content
+    if not papers:
+        print("No new papers found - preserving existing content in README.md")
+        return
+    
     # Define the categories that should be updated
     categories = ['Segmentation', 'Reconstruction', 'Classification', 'Image Registration', 'Domain Adaptation', 'Generative Models', 'General']
     
-    # Update each category section
+    # Update each category section only if papers exist for that category
     for category in categories:
         paper_list = generate_paper_list_markdown(papers, category)
         
-        # Find the placeholder block for this category
-        pattern = rf'(<!-- BEGIN {category.upper().replace(" ", "_")}_PAPERS -->).*?(<!-- END {category.upper().replace(" ", "_")}_PAPERS -->)'
-        replacement = f'\\1\n{paper_list}\n\\2'
-        
-        content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+        # Only update if there are papers for this category
+        if paper_list.strip():
+            # Find the placeholder block for this category
+            pattern = rf'(<!-- BEGIN {category.upper().replace(" ", "_")}_PAPERS -->).*?(<!-- END {category.upper().replace(" ", "_")}_PAPERS -->)'
+            replacement = f'\\1\n{paper_list}\n\\2'
+            
+            content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+            print(f"Updated {category} section with {len([p for p in papers if category in p['categories']])} papers")
     
     # Write the updated content back to README.md
     try:
@@ -209,8 +217,6 @@ def update_readme(papers: List[Dict]) -> None:
         
         if papers:
             print(f"Added {len(papers)} papers across {len(set(cat for paper in papers for cat in paper['categories']))} categories.")
-        else:
-            print("No new papers added (this is normal if no new papers are available or due to network issues).")
             
     except Exception as e:
         print(f"Error writing to README.md: {e}")
@@ -230,10 +236,10 @@ def main():
         print("1. No new MICCAI 2025 papers with code available on arXiv")
         print("2. Network connectivity issues preventing arXiv access")
         print("3. Changes in arXiv API or search patterns")
-        print("\nThe README will be updated to reflect current status.")
+        print("\nExisting papers in README.md will be preserved.")
     
-    # Always try to update README, even if no new papers found
-    # This ensures the workflow runs successfully
+    # Try to update README with new papers if found
+    # If no papers found, existing content will be preserved
     update_readme(papers)
     
     print("Update process completed!")
