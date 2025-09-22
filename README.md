@@ -37,6 +37,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
 * **[Consistent View Alignment Improves Foundation Models for 3D Medical Image Segmentation](http://arxiv.org/abs/2509.13846v1)** - [Code](https://github.com/Tenbatsu24/LatentCampus)
 * **[Modality-Agnostic Input Channels Enable Segmentation of Brain lesions in Multimodal MRI with Sequences Unavailable During Training](http://arxiv.org/abs/2509.09290v1)** - [Code](https://github.com/Anthony-P-Addison/AGN-MOD-SEG)
 * **[UltrON: Ultrasound Occupancy Networks](http://arxiv.org/abs/2509.08991v1)** - [Code](https://github.com/magdalena-wysocki/ultron)
@@ -55,7 +56,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Advancing Fetal Ultrasound Image Quality Assessment in Low-Resource Settings](http://arxiv.org/abs/2507.22802v1)** - [Code](https://github.com/donglihe-hub/FetalCLIP-IQA)
 * **[HRVVS: A High-resolution Video Vasculature Segmentation Network via Hierarchical Autoregressive Residual Priors](http://arxiv.org/abs/2507.22530v2)** - [Code](https://github.com/scott-yjyang/HRVVS)
 * **[GLCP: Global-to-Local Connectivity Preservation for Tubular Structure Segmentation](http://arxiv.org/abs/2507.21328v1)** - [Code](https://github.com/FeixiangZhou/GLCP)
-* **[EndoGen: Conditional Autoregressive Endoscopic Video Generation](http://arxiv.org/abs/2507.17388v1)** - [Code](https://www.github.com/CUHK-AIM-Group/EndoGen)
 <!-- END SEGMENTATION_PAPERS -->
 
 ## 🔧 Reconstruction
@@ -63,6 +63,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN RECONSTRUCTION_PAPERS -->
+* **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
 * **[UltrON: Ultrasound Occupancy Networks](http://arxiv.org/abs/2509.08991v1)** - [Code](https://github.com/magdalena-wysocki/ultron)
 * **[XOCT: Enhancing OCT to OCTA Translation via Cross-Dimensional Supervised Multi-Scale Feature Learning](http://arxiv.org/abs/2509.07455v1)** - [Code](https://github.com/uci-cbcl/XOCT)
 * **[Neural Proteomics Fields for Super-resolved Spatial Proteomics Prediction](http://arxiv.org/abs/2508.17389v1)** - [Code](https://github.com/Bokai-Zhao/NPF)
@@ -78,6 +79,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
 * **[More performant and scalable: Rethinking contrastive vision-language pre-training of radiology in the LLM era](http://arxiv.org/abs/2509.13175v1)** - [Code](https://github.com/SadVoxel/More-performant-and-scalable)
 * **[Robust Fetal Pose Estimation across Gestational Ages via Cross-Population Augmentation](http://arxiv.org/abs/2509.12062v1)** - [Code](https://github.com/sebodiaz/cross-population-pose)
 * **[Invisible Attributes, Visible Biases: Exploring Demographic Shortcuts in MRI-based Alzheimer's Disease Classification](http://arxiv.org/abs/2509.09558v1)** - [Code](https://github.com/acharaakshit/ShortMR)
@@ -109,6 +111,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
 * **[Consistent View Alignment Improves Foundation Models for 3D Medical Image Segmentation](http://arxiv.org/abs/2509.13846v1)** - [Code](https://github.com/Tenbatsu24/LatentCampus)
 * **[More performant and scalable: Rethinking contrastive vision-language pre-training of radiology in the LLM era](http://arxiv.org/abs/2509.13175v1)** - [Code](https://github.com/SadVoxel/More-performant-and-scalable)
 * **[Robust Fetal Pose Estimation across Gestational Ages via Cross-Population Augmentation](http://arxiv.org/abs/2509.12062v1)** - [Code](https://github.com/sebodiaz/cross-population-pose)
@@ -150,7 +153,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[REFLECT: Rectified Flows for Efficient Brain Anomaly Correction Transport](http://arxiv.org/abs/2508.02889v1)** - [Code](https://github.com/farzad-bz/REFLECT)
 * **[Diffusion-Based User-Guided Data Augmentation for Coronary Stenosis Detection](http://arxiv.org/abs/2508.00438v1)** - [Code](https://github.com/medipixel/DiGDA)
 * **[$MV_{Hybrid}$: Improving Spatial Transcriptomics Prediction with Hybrid State Space-Vision Transformer Backbone in Pathology Vision Foundation Models](http://arxiv.org/abs/2508.00383v1)** - [Code](https://github.com/deepnoid-ai/MVHybrid)
-* **[EndoGen: Conditional Autoregressive Endoscopic Video Generation](http://arxiv.org/abs/2507.17388v1)** - [Code](https://www.github.com/CUHK-AIM-Group/EndoGen)
 <!-- END GENERATIVE_MODELS_PAPERS -->
 
 ## 📚 General
