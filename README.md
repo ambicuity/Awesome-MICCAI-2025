@@ -79,6 +79,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[CardiacCLIP: Video-based CLIP Adaptation for LVEF Prediction in a Few-shot Manner](http://arxiv.org/abs/2509.17065v1)** - [Code](https://github.com/xmed-lab/CardiacCLIP)
 * **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
 * **[More performant and scalable: Rethinking contrastive vision-language pre-training of radiology in the LLM era](http://arxiv.org/abs/2509.13175v1)** - [Code](https://github.com/SadVoxel/More-performant-and-scalable)
 * **[Robust Fetal Pose Estimation across Gestational Ages via Cross-Population Augmentation](http://arxiv.org/abs/2509.12062v1)** - [Code](https://github.com/sebodiaz/cross-population-pose)
@@ -103,7 +104,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[VidFuncta: Towards Generalizable Neural Representations for Ultrasound Videos](http://arxiv.org/abs/2507.21863v1)** - [Code](https://github.com/JuliaWolleb/VidFuncta_public)
 * **[VAMPIRE: Uncovering Vessel Directional and Morphological Information from OCTA Images for Cardiovascular Disease Risk Factor Prediction](http://arxiv.org/abs/2507.20017v1)** - [Code](https://github.com/xmed-lab/VAMPIRE)
 * **[RegScore: Scoring Systems for Regression Tasks](http://arxiv.org/abs/2507.19155v1)** - [Code](https://github.com/SanoScience/RegScore)
-* **[A COCO-Formatted Instance-Level Dataset for Plasmodium Falciparum Detection in Giemsa-Stained Blood Smears](http://arxiv.org/abs/2507.18483v1)** - [Code](https://github.com/MIRA-Vision-Microscopy/malaria-thin-smear-coco)
 <!-- END CLASSIFICATION_PAPERS -->
 
 ## 🔄 Image Registration
