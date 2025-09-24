@@ -37,6 +37,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[Zero-shot Monocular Metric Depth for Endoscopic Images](http://arxiv.org/abs/2509.18642v1)** - [Code](https://github.com/TouchSurgery/EndoSynth)
 * **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
 * **[Consistent View Alignment Improves Foundation Models for 3D Medical Image Segmentation](http://arxiv.org/abs/2509.13846v1)** - [Code](https://github.com/Tenbatsu24/LatentCampus)
 * **[Modality-Agnostic Input Channels Enable Segmentation of Brain lesions in Multimodal MRI with Sequences Unavailable During Training](http://arxiv.org/abs/2509.09290v1)** - [Code](https://github.com/Anthony-P-Addison/AGN-MOD-SEG)
@@ -79,6 +80,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[Learning Contrastive Multimodal Fusion with Improved Modality Dropout for Disease Detection and Prediction](http://arxiv.org/abs/2509.18284v1)** - [Code](https://github.com/omron-sinicx/medical-modality-dropout)
 * **[CardiacCLIP: Video-based CLIP Adaptation for LVEF Prediction in a Few-shot Manner](http://arxiv.org/abs/2509.17065v1)** - [Code](https://github.com/xmed-lab/CardiacCLIP)
 * **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
 * **[More performant and scalable: Rethinking contrastive vision-language pre-training of radiology in the LLM era](http://arxiv.org/abs/2509.13175v1)** - [Code](https://github.com/SadVoxel/More-performant-and-scalable)
@@ -102,8 +104,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[GEPAR3D: Geometry Prior-Assisted Learning for 3D Tooth Segmentation](http://arxiv.org/abs/2508.00155v1)** - [Code](https://github.com/tomek1911/GEPAR3D)
 * **[Advancing Fetal Ultrasound Image Quality Assessment in Low-Resource Settings](http://arxiv.org/abs/2507.22802v1)** - [Code](https://github.com/donglihe-hub/FetalCLIP-IQA)
 * **[VidFuncta: Towards Generalizable Neural Representations for Ultrasound Videos](http://arxiv.org/abs/2507.21863v1)** - [Code](https://github.com/JuliaWolleb/VidFuncta_public)
-* **[VAMPIRE: Uncovering Vessel Directional and Morphological Information from OCTA Images for Cardiovascular Disease Risk Factor Prediction](http://arxiv.org/abs/2507.20017v1)** - [Code](https://github.com/xmed-lab/VAMPIRE)
-* **[RegScore: Scoring Systems for Regression Tasks](http://arxiv.org/abs/2507.19155v1)** - [Code](https://github.com/SanoScience/RegScore)
 <!-- END CLASSIFICATION_PAPERS -->
 
 ## 🔄 Image Registration
@@ -111,6 +111,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[Zero-shot Monocular Metric Depth for Endoscopic Images](http://arxiv.org/abs/2509.18642v1)** - [Code](https://github.com/TouchSurgery/EndoSynth)
 * **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
 * **[Consistent View Alignment Improves Foundation Models for 3D Medical Image Segmentation](http://arxiv.org/abs/2509.13846v1)** - [Code](https://github.com/Tenbatsu24/LatentCampus)
 * **[More performant and scalable: Rethinking contrastive vision-language pre-training of radiology in the LLM era](http://arxiv.org/abs/2509.13175v1)** - [Code](https://github.com/SadVoxel/More-performant-and-scalable)
@@ -124,7 +125,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Deep Biomechanically-Guided Interpolation for Keypoint-Based Brain Shift Registration](http://arxiv.org/abs/2508.13762v1)** - [Code](https://github.com/tiago-assis/Deep-Biomechanical-Interpolator}{https://github.com/tiago-assis/Deep-Biomechanical-Interpolator)
 * **[$MV_{Hybrid}$: Improving Spatial Transcriptomics Prediction with Hybrid State Space-Vision Transformer Backbone in Pathology Vision Foundation Models](http://arxiv.org/abs/2508.00383v1)** - [Code](https://github.com/deepnoid-ai/MVHybrid)
 * **[Advancing Fetal Ultrasound Image Quality Assessment in Low-Resource Settings](http://arxiv.org/abs/2507.22802v1)** - [Code](https://github.com/donglihe-hub/FetalCLIP-IQA)
-* **[RegScore: Scoring Systems for Regression Tasks](http://arxiv.org/abs/2507.19155v1)** - [Code](https://github.com/SanoScience/RegScore)
 <!-- END IMAGE_REGISTRATION_PAPERS -->
 
 ## 🔀 Domain Adaptation
