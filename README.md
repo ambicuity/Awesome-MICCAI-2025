@@ -37,6 +37,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[Anomaly Detection by Clustering DINO Embeddings using a Dirichlet Process Mixture](http://arxiv.org/abs/2509.19997v1)** - [Code](https://github.com/NicoSchulthess/anomalydino-dpmm)
 * **[Zero-shot Monocular Metric Depth for Endoscopic Images](http://arxiv.org/abs/2509.18642v1)** - [Code](https://github.com/TouchSurgery/EndoSynth)
 * **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
 * **[Consistent View Alignment Improves Foundation Models for 3D Medical Image Segmentation](http://arxiv.org/abs/2509.13846v1)** - [Code](https://github.com/Tenbatsu24/LatentCampus)
@@ -56,7 +57,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[GEPAR3D: Geometry Prior-Assisted Learning for 3D Tooth Segmentation](http://arxiv.org/abs/2508.00155v1)** - [Code](https://github.com/tomek1911/GEPAR3D)
 * **[Advancing Fetal Ultrasound Image Quality Assessment in Low-Resource Settings](http://arxiv.org/abs/2507.22802v1)** - [Code](https://github.com/donglihe-hub/FetalCLIP-IQA)
 * **[HRVVS: A High-resolution Video Vasculature Segmentation Network via Hierarchical Autoregressive Residual Priors](http://arxiv.org/abs/2507.22530v2)** - [Code](https://github.com/scott-yjyang/HRVVS)
-* **[GLCP: Global-to-Local Connectivity Preservation for Tubular Structure Segmentation](http://arxiv.org/abs/2507.21328v1)** - [Code](https://github.com/FeixiangZhou/GLCP)
 <!-- END SEGMENTATION_PAPERS -->
 
 ## 🔧 Reconstruction
@@ -72,7 +72,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[HierAdaptMR: Cross-Center Cardiac MRI Reconstruction with Hierarchical Feature Adapters](http://arxiv.org/abs/2508.13026v1)** - [Code](https://github.com/Ruru-Xu/HierAdaptMR)
 * **[Cross-view Generalized Diffusion Model for Sparse-view CT Reconstruction](http://arxiv.org/abs/2508.10313v1)** - [Code](https://github.com/xmed-lab/CvG-Diff)
 * **[Adaptive k-space Radial Sampling for Cardiac MRI with Reinforcement Learning](http://arxiv.org/abs/2508.04727v2)** - [Code](https://github.com/Ruru-Xu/RL-kspace-Radial-Sampling)
-* **[VidFuncta: Towards Generalizable Neural Representations for Ultrasound Videos](http://arxiv.org/abs/2507.21863v1)** - [Code](https://github.com/JuliaWolleb/VidFuncta_public)
 <!-- END RECONSTRUCTION_PAPERS -->
 
 ## 🏷️ Classification
@@ -80,6 +79,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[Anomaly Detection by Clustering DINO Embeddings using a Dirichlet Process Mixture](http://arxiv.org/abs/2509.19997v1)** - [Code](https://github.com/NicoSchulthess/anomalydino-dpmm)
 * **[Learning Contrastive Multimodal Fusion with Improved Modality Dropout for Disease Detection and Prediction](http://arxiv.org/abs/2509.18284v1)** - [Code](https://github.com/omron-sinicx/medical-modality-dropout)
 * **[CardiacCLIP: Video-based CLIP Adaptation for LVEF Prediction in a Few-shot Manner](http://arxiv.org/abs/2509.17065v1)** - [Code](https://github.com/xmed-lab/CardiacCLIP)
 * **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
@@ -103,7 +103,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[$MV_{Hybrid}$: Improving Spatial Transcriptomics Prediction with Hybrid State Space-Vision Transformer Backbone in Pathology Vision Foundation Models](http://arxiv.org/abs/2508.00383v1)** - [Code](https://github.com/deepnoid-ai/MVHybrid)
 * **[GEPAR3D: Geometry Prior-Assisted Learning for 3D Tooth Segmentation](http://arxiv.org/abs/2508.00155v1)** - [Code](https://github.com/tomek1911/GEPAR3D)
 * **[Advancing Fetal Ultrasound Image Quality Assessment in Low-Resource Settings](http://arxiv.org/abs/2507.22802v1)** - [Code](https://github.com/donglihe-hub/FetalCLIP-IQA)
-* **[VidFuncta: Towards Generalizable Neural Representations for Ultrasound Videos](http://arxiv.org/abs/2507.21863v1)** - [Code](https://github.com/JuliaWolleb/VidFuncta_public)
 <!-- END CLASSIFICATION_PAPERS -->
 
 ## 🔄 Image Registration
