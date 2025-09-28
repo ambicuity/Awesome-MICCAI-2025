@@ -35,9 +35,13 @@ def get_github_gitlab_huggingface_links(text: str) -> List[str]:
     for link in links:
         # Remove trailing punctuation and whitespace
         link = re.sub(r'[.,;:!?)\]}>"\'\s]+$', '', link)
-        cleaned_links.append(link)
+        # Ensure link is valid format
+        if link and ('github.com/' in link or 'gitlab.com/' in link or 'huggingface.co/' in link):
+            # Remove duplicates in the same link (sometimes happens with copy-paste)
+            if link not in cleaned_links:
+                cleaned_links.append(link)
     
-    return list(set(cleaned_links))  # Remove duplicates
+    return cleaned_links
 
 
 def categorize_paper(title: str, abstract: str) -> List[str]:
@@ -82,10 +86,15 @@ def search_miccai_papers() -> List[Dict]:
     seen_ids = set()
     network_error = False
     
-    # Create arXiv client
-    client = arxiv.Client()
+    # Create arXiv client with retry configuration
+    client = arxiv.Client(
+        page_size=50,  # Smaller page size to avoid timeouts
+        delay_seconds=3,  # Longer delay between requests
+        num_retries=3
+    )
     
     for query in search_queries:
+        print(f"Searching with query: {query}")
         try:
             search = arxiv.Search(
                 query=query,
@@ -95,7 +104,10 @@ def search_miccai_papers() -> List[Dict]:
             )
             
             # Use the new client.results() method instead of search.results()
-            for paper in client.results(search):
+            results = list(client.results(search))
+            print(f"Found {len(results)} results for query: {query}")
+            
+            for paper in results:
                 if paper.entry_id not in seen_ids:
                     seen_ids.add(paper.entry_id)
                     
@@ -125,14 +137,15 @@ def search_miccai_papers() -> List[Dict]:
                         print()
             
             # Add delay to avoid rate limiting
-            time.sleep(1)
+            time.sleep(3)
             
         except Exception as e:
             print(f"Error searching with query '{query}': {e}")
             # Check if this is a network-related error
             error_str = str(e).lower()
-            if any(term in error_str for term in ['connection', 'network', 'resolve', 'timeout', 'unreachable']):
+            if any(term in error_str for term in ['connection', 'network', 'resolve', 'timeout', 'unreachable', 'rate limit', 'http']):
                 network_error = True
+                print(f"Network-related error detected: {e}")
             continue
     
     print(f"Total papers found with code: {len(all_papers)}")
@@ -141,6 +154,8 @@ def search_miccai_papers() -> List[Dict]:
     if network_error and len(all_papers) == 0:
         print("WARNING: Network connectivity issues detected. Unable to fetch papers from arXiv.")
         print("The script will continue but no new papers will be added.")
+    elif network_error:
+        print("WARNING: Some network issues encountered but managed to fetch some papers.")
     
     return all_papers
 
@@ -179,35 +194,65 @@ def generate_paper_list_markdown(papers: List[Dict], category: str) -> str:
 
 def update_readme(papers: List[Dict]) -> None:
     """Update the README.md file with the new paper lists."""
+    import os
     readme_path = 'README.md'
+    
+    # Ensure we're in the right directory
+    if not os.path.exists(readme_path):
+        # Try to find README.md in current directory or parent directories
+        for potential_path in ['README.md', '../README.md', '../../README.md']:
+            if os.path.exists(potential_path):
+                readme_path = potential_path
+                break
+        else:
+            print(f"README.md not found! Current directory: {os.getcwd()}")
+            print(f"Directory contents: {os.listdir('.')}")
+            return
     
     try:
         with open(readme_path, 'r', encoding='utf-8') as f:
             content = f.read()
-    except FileNotFoundError:
-        print("README.md not found!")
+    except Exception as e:
+        print(f"Error reading README.md: {e}")
         return
     
-    # If no papers were found, don't update anything to preserve existing content
+    # If no papers were found, still update timestamp to show the script ran
     if not papers:
-        print("No new papers found - preserving existing content in README.md")
-        return
+        print("No new papers found - preserving existing content but updating timestamp")
     
     # Define the categories that should be updated
     categories = ['Segmentation', 'Reconstruction', 'Classification', 'Image Registration', 'Domain Adaptation', 'Generative Models', 'General']
     
     # Update each category section only if papers exist for that category
-    for category in categories:
-        paper_list = generate_paper_list_markdown(papers, category)
-        
-        # Only update if there are papers for this category
-        if paper_list.strip():
-            # Find the placeholder block for this category
-            pattern = rf'(<!-- BEGIN {category.upper().replace(" ", "_")}_PAPERS -->).*?(<!-- END {category.upper().replace(" ", "_")}_PAPERS -->)'
-            replacement = f'\\1\n{paper_list}\n\\2'
+    if papers:
+        for category in categories:
+            paper_list = generate_paper_list_markdown(papers, category)
             
-            content = re.sub(pattern, replacement, content, flags=re.DOTALL)
-            print(f"Updated {category} section with {len([p for p in papers if category in p['categories']])} papers")
+            # Only update if there are papers for this category
+            if paper_list.strip():
+                # Find the placeholder block for this category
+                pattern = rf'(<!-- BEGIN {category.upper().replace(" ", "_")}_PAPERS -->).*?(<!-- END {category.upper().replace(" ", "_")}_PAPERS -->)'
+                replacement = f'\\1\n{paper_list}\n\\2'
+                
+                if re.search(pattern, content, flags=re.DOTALL):
+                    content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+                    print(f"Updated {category} section with {len([p for p in papers if category in p['categories']])} papers")
+                else:
+                    print(f"WARNING: Could not find pattern for {category} category")
+    
+    # Update the "Last Updated" timestamp
+    from datetime import datetime, timezone
+    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    
+    # Look for the last updated line and update it
+    last_updated_pattern = r'\*\*Last Updated\*\*: [^\n]*'
+    new_last_updated = f'**Last Updated**: {timestamp} by GitHub Actions'
+    
+    if re.search(last_updated_pattern, content):
+        content = re.sub(last_updated_pattern, new_last_updated, content)
+        print(f"Updated timestamp to: {timestamp}")
+    else:
+        print("Could not find Last Updated timestamp to update")
     
     # Write the updated content back to README.md
     try:
@@ -236,10 +281,10 @@ def main():
         print("1. No new MICCAI 2025 papers with code available on arXiv")
         print("2. Network connectivity issues preventing arXiv access")
         print("3. Changes in arXiv API or search patterns")
-        print("\nExisting papers in README.md will be preserved.")
+        print("\nWill still update timestamp in README.md.")
     
-    # Try to update README with new papers if found
-    # If no papers found, existing content will be preserved
+    # Always try to update README (for timestamp if nothing else)
+    # If no papers found, existing content will be preserved but timestamp updated
     update_readme(papers)
     
     print("Update process completed!")

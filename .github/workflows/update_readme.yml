@@ -16,6 +16,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
       
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -29,13 +31,32 @@ jobs:
         
     - name: Run update script
       run: |
-        cd ${{ github.workspace }}
+        echo "Current directory: $(pwd)"
+        echo "Contents: $(ls -la)"
         python scripts/update_papers.py
         
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
+          echo "Changes detected:"
+          git status --porcelain
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
+          echo "No changes detected"
+        fi
+        
     - name: Commit and push changes
+      if: steps.verify-changed-files.outputs.changed == 'true'
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: 'ci: Auto-update papers list'
         file_pattern: 'README.md'
-        commit_user_name: 'ambicuity'
-        commit_user_email: 'riteshrana36@gmail.com'
+        commit_user_name: 'github-actions[bot]'
+        commit_user_email: '41898282+github-actions[bot]@users.noreply.github.com'
+        
+    - name: No changes to commit
+      if: steps.verify-changed-files.outputs.changed == 'false'
+      run: |
+        echo "No changes detected in README.md - nothing to commit"
