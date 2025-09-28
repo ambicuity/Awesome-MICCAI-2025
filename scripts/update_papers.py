@@ -206,8 +206,16 @@ def update_readme(papers: List[Dict]) -> None:
             pattern = rf'(<!-- BEGIN {category.upper().replace(" ", "_")}_PAPERS -->).*?(<!-- END {category.upper().replace(" ", "_")}_PAPERS -->)'
             replacement = f'\\1\n{paper_list}\n\\2'
             
-            content = re.sub(pattern, replacement, content, flags=re.DOTALL)
-            print(f"Updated {category} section with {len([p for p in papers if category in p['categories']])} papers")
+            # Debug: Check if pattern matches
+            marker_name = category.upper().replace(" ", "_")
+            print(f"Looking for markers: BEGIN {marker_name}_PAPERS and END {marker_name}_PAPERS")
+            
+            if re.search(pattern, content, flags=re.DOTALL):
+                content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+                print(f"Updated {category} section with {len([p for p in papers if category in p['categories']])} papers")
+            else:
+                print(f"WARNING: Could not find pattern for {category} category")
+                print(f"Pattern: {pattern}")
     
     # Write the updated content back to README.md
     try:
