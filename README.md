@@ -37,6 +37,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[Segmentor-Guided Counterfactual Fine-Tuning for Image Synthesis](http://arxiv.org/abs/2509.24913v1)** - [Code](https://github.com/biomedia-mira/seg-cft)
 * **[Anomaly Detection by Clustering DINO Embeddings using a Dirichlet Process Mixture](http://arxiv.org/abs/2509.19997v1)** - [Code](https://github.com/NicoSchulthess/anomalydino-dpmm)
 * **[Zero-shot Monocular Metric Depth for Endoscopic Images](http://arxiv.org/abs/2509.18642v1)** - [Code](https://github.com/TouchSurgery/EndoSynth)
 * **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
@@ -55,8 +56,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Large Kernel MedNeXt for Breast Tumor Segmentation and Self-Normalizing Network for pCR Classification in Magnetic Resonance Images](http://arxiv.org/abs/2508.01831v1)** - [Code](https://github.com/toufiqmusah/caladan-mama-mia.git)
 * **[Skip priors and add graph-based anatomical information, for point-based Couinaud segmentation](http://arxiv.org/abs/2508.01785v1)** - [Code](https://github.com/ZhangXiaotong015/GrPn)
 * **[GEPAR3D: Geometry Prior-Assisted Learning for 3D Tooth Segmentation](http://arxiv.org/abs/2508.00155v1)** - [Code](https://github.com/tomek1911/GEPAR3D)
-* **[Advancing Fetal Ultrasound Image Quality Assessment in Low-Resource Settings](http://arxiv.org/abs/2507.22802v1)** - [Code](https://github.com/donglihe-hub/FetalCLIP-IQA)
-* **[HRVVS: A High-resolution Video Vasculature Segmentation Network via Hierarchical Autoregressive Residual Priors](http://arxiv.org/abs/2507.22530v2)** - [Code](https://github.com/scott-yjyang/HRVVS)
 <!-- END SEGMENTATION_PAPERS -->
 
 ## 🔧 Reconstruction
@@ -79,6 +78,8 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[Segmentor-Guided Counterfactual Fine-Tuning for Image Synthesis](http://arxiv.org/abs/2509.24913v1)** - [Code](https://github.com/biomedia-mira/seg-cft)
+* **[High-Order Progressive Trajectory Matching for Medical Image Dataset Distillation](http://arxiv.org/abs/2509.24177v1)** - [Code](https://github.com/Bian-jh/HoP-TM)
 * **[Anomaly Detection by Clustering DINO Embeddings using a Dirichlet Process Mixture](http://arxiv.org/abs/2509.19997v1)** - [Code](https://github.com/NicoSchulthess/anomalydino-dpmm)
 * **[Learning Contrastive Multimodal Fusion with Improved Modality Dropout for Disease Detection and Prediction](http://arxiv.org/abs/2509.18284v1)** - [Code](https://github.com/omron-sinicx/medical-modality-dropout)
 * **[CardiacCLIP: Video-based CLIP Adaptation for LVEF Prediction in a Few-shot Manner](http://arxiv.org/abs/2509.17065v1)** - [Code](https://github.com/xmed-lab/CardiacCLIP)
@@ -102,7 +103,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Diffusion-Based User-Guided Data Augmentation for Coronary Stenosis Detection](http://arxiv.org/abs/2508.00438v1)** - [Code](https://github.com/medipixel/DiGDA)
 * **[$MV_{Hybrid}$: Improving Spatial Transcriptomics Prediction with Hybrid State Space-Vision Transformer Backbone in Pathology Vision Foundation Models](http://arxiv.org/abs/2508.00383v1)** - [Code](https://github.com/deepnoid-ai/MVHybrid)
 * **[GEPAR3D: Geometry Prior-Assisted Learning for 3D Tooth Segmentation](http://arxiv.org/abs/2508.00155v1)** - [Code](https://github.com/tomek1911/GEPAR3D)
-* **[Advancing Fetal Ultrasound Image Quality Assessment in Low-Resource Settings](http://arxiv.org/abs/2507.22802v1)** - [Code](https://github.com/donglihe-hub/FetalCLIP-IQA)
 <!-- END CLASSIFICATION_PAPERS -->
 
 ## 🔄 Image Registration
@@ -123,7 +123,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[OccluNet: Spatio-Temporal Deep Learning for Occlusion Detection on DSA](http://arxiv.org/abs/2508.14286v1)** - [Code](https://github.com/anushka-kore/OccluNet.git)
 * **[Deep Biomechanically-Guided Interpolation for Keypoint-Based Brain Shift Registration](http://arxiv.org/abs/2508.13762v1)** - [Code](https://github.com/tiago-assis/Deep-Biomechanical-Interpolator}{https://github.com/tiago-assis/Deep-Biomechanical-Interpolator)
 * **[$MV_{Hybrid}$: Improving Spatial Transcriptomics Prediction with Hybrid State Space-Vision Transformer Backbone in Pathology Vision Foundation Models](http://arxiv.org/abs/2508.00383v1)** - [Code](https://github.com/deepnoid-ai/MVHybrid)
-* **[Advancing Fetal Ultrasound Image Quality Assessment in Low-Resource Settings](http://arxiv.org/abs/2507.22802v1)** - [Code](https://github.com/donglihe-hub/FetalCLIP-IQA)
 <!-- END IMAGE_REGISTRATION_PAPERS -->
 
 ## 🔀 Domain Adaptation
@@ -144,6 +143,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERATIVE_MODELS_PAPERS -->
+* **[Segmentor-Guided Counterfactual Fine-Tuning for Image Synthesis](http://arxiv.org/abs/2509.24913v1)** - [Code](https://github.com/biomedia-mira/seg-cft)
 * **[Tooth-Diffusion: Guided 3D CBCT Synthesis with Fine-Grained Tooth Conditioning](http://arxiv.org/abs/2508.14276v1)** - [Code](https://github.com/djafar1/tooth-diffusion)
 * **[Cross-view Generalized Diffusion Model for Sparse-view CT Reconstruction](http://arxiv.org/abs/2508.10313v1)** - [Code](https://github.com/xmed-lab/CvG-Diff)
 * **[Deep Learning Enables Large-Scale Shape and Appearance Modeling in Total-Body DXA Imaging](http://arxiv.org/abs/2508.10132v1)** - [Code](https://github.com/hawaii-ai/dxa-pointplacement)
@@ -167,6 +167,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-09-29 17:17 UTC by GitHub Actions
+**Last Updated**: 2025-09-30 08:27 UTC by GitHub Actions
 
 **License**: Apache License 2.0
