@@ -38,10 +38,12 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
 * **[Segmentor-Guided Counterfactual Fine-Tuning for Image Synthesis](http://arxiv.org/abs/2509.24913v1)** - [Code](https://github.com/biomedia-mira/seg-cft)
+* **[U-Mamba2-SSL for Semi-Supervised Tooth and Pulp Segmentation in CBCT](http://arxiv.org/abs/2509.20154v2)** - [Code](https://github.com/zhiqin1998/UMamba2)
 * **[Anomaly Detection by Clustering DINO Embeddings using a Dirichlet Process Mixture](http://arxiv.org/abs/2509.19997v1)** - [Code](https://github.com/NicoSchulthess/anomalydino-dpmm)
 * **[Zero-shot Monocular Metric Depth for Endoscopic Images](http://arxiv.org/abs/2509.18642v1)** - [Code](https://github.com/TouchSurgery/EndoSynth)
 * **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
 * **[Consistent View Alignment Improves Foundation Models for 3D Medical Image Segmentation](http://arxiv.org/abs/2509.13846v1)** - [Code](https://github.com/Tenbatsu24/LatentCampus)
+* **[U-Mamba2: Scaling State Space Models for Dental Anatomy Segmentation in CBCT](http://arxiv.org/abs/2509.12069v2)** - [Code](https://github.com/zhiqin1998/UMamba2)
 * **[Modality-Agnostic Input Channels Enable Segmentation of Brain lesions in Multimodal MRI with Sequences Unavailable During Training](http://arxiv.org/abs/2509.09290v1)** - [Code](https://github.com/Anthony-P-Addison/AGN-MOD-SEG)
 * **[UltrON: Ultrasound Occupancy Networks](http://arxiv.org/abs/2509.08991v1)** - [Code](https://github.com/magdalena-wysocki/ultron)
 * **[SimCroP: Radiograph Representation Learning with Similarity-driven Cross-granularity Pre-training](http://arxiv.org/abs/2509.08311v1)** - [Code](https://github.com/ToniChopp/SimCroP)
@@ -80,11 +82,13 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
 * **[Segmentor-Guided Counterfactual Fine-Tuning for Image Synthesis](http://arxiv.org/abs/2509.24913v1)** - [Code](https://github.com/biomedia-mira/seg-cft)
 * **[High-Order Progressive Trajectory Matching for Medical Image Dataset Distillation](http://arxiv.org/abs/2509.24177v1)** - [Code](https://github.com/Bian-jh/HoP-TM)
+* **[U-Mamba2-SSL for Semi-Supervised Tooth and Pulp Segmentation in CBCT](http://arxiv.org/abs/2509.20154v2)** - [Code](https://github.com/zhiqin1998/UMamba2)
 * **[Anomaly Detection by Clustering DINO Embeddings using a Dirichlet Process Mixture](http://arxiv.org/abs/2509.19997v1)** - [Code](https://github.com/NicoSchulthess/anomalydino-dpmm)
 * **[Learning Contrastive Multimodal Fusion with Improved Modality Dropout for Disease Detection and Prediction](http://arxiv.org/abs/2509.18284v1)** - [Code](https://github.com/omron-sinicx/medical-modality-dropout)
 * **[CardiacCLIP: Video-based CLIP Adaptation for LVEF Prediction in a Few-shot Manner](http://arxiv.org/abs/2509.17065v1)** - [Code](https://github.com/xmed-lab/CardiacCLIP)
 * **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
 * **[More performant and scalable: Rethinking contrastive vision-language pre-training of radiology in the LLM era](http://arxiv.org/abs/2509.13175v1)** - [Code](https://github.com/SadVoxel/More-performant-and-scalable)
+* **[U-Mamba2: Scaling State Space Models for Dental Anatomy Segmentation in CBCT](http://arxiv.org/abs/2509.12069v2)** - [Code](https://github.com/zhiqin1998/UMamba2)
 * **[Robust Fetal Pose Estimation across Gestational Ages via Cross-Population Augmentation](http://arxiv.org/abs/2509.12062v1)** - [Code](https://github.com/sebodiaz/cross-population-pose)
 * **[Invisible Attributes, Visible Biases: Exploring Demographic Shortcuts in MRI-based Alzheimer's Disease Classification](http://arxiv.org/abs/2509.09558v1)** - [Code](https://github.com/acharaakshit/ShortMR)
 * **[Modality-Agnostic Input Channels Enable Segmentation of Brain lesions in Multimodal MRI with Sequences Unavailable During Training](http://arxiv.org/abs/2509.09290v1)** - [Code](https://github.com/Anthony-P-Addison/AGN-MOD-SEG)
@@ -144,6 +148,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 <!-- BEGIN GENERATIVE_MODELS_PAPERS -->
 * **[Segmentor-Guided Counterfactual Fine-Tuning for Image Synthesis](http://arxiv.org/abs/2509.24913v1)** - [Code](https://github.com/biomedia-mira/seg-cft)
+* **[U-Mamba2-SSL for Semi-Supervised Tooth and Pulp Segmentation in CBCT](http://arxiv.org/abs/2509.20154v2)** - [Code](https://github.com/zhiqin1998/UMamba2)
 * **[Tooth-Diffusion: Guided 3D CBCT Synthesis with Fine-Grained Tooth Conditioning](http://arxiv.org/abs/2508.14276v1)** - [Code](https://github.com/djafar1/tooth-diffusion)
 * **[Cross-view Generalized Diffusion Model for Sparse-view CT Reconstruction](http://arxiv.org/abs/2508.10313v1)** - [Code](https://github.com/xmed-lab/CvG-Diff)
 * **[Deep Learning Enables Large-Scale Shape and Appearance Modeling in Total-Body DXA Imaging](http://arxiv.org/abs/2508.10132v1)** - [Code](https://github.com/hawaii-ai/dxa-pointplacement)
@@ -159,6 +164,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERAL_PAPERS -->
+* **[EchoingECG: An Electrocardiogram Cross-Modal Model for Echocardiogram Tasks](http://arxiv.org/abs/2509.25791v1)** - [Code](https://github.com/mcintoshML/EchoingECG)
 * **[Exploring Pre-training Across Domains for Few-Shot Surgical Skill Assessment](http://arxiv.org/abs/2509.09327v1)** - [Code](https://github.com/anastadimi/ssa-fsl)
 * **[Multi-modal Knowledge Decomposition based Online Distillation for Biomarker Prediction in Breast Cancer Histopathology](http://arxiv.org/abs/2508.17213v1)** - [Code](https://github.com/qiyuanzz/MICCAI2025_MKD)
 <!-- END GENERAL_PAPERS -->
@@ -167,6 +173,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-09-30 08:27 UTC by GitHub Actions
+**Last Updated**: 2025-10-01 08:26 UTC by GitHub Actions
 
 **License**: Apache License 2.0
