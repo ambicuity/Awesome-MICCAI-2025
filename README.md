@@ -105,7 +105,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[REFLECT: Rectified Flows for Efficient Brain Anomaly Correction Transport](http://arxiv.org/abs/2508.02889v1)** - [Code](https://github.com/farzad-bz/REFLECT)
 * **[Large Kernel MedNeXt for Breast Tumor Segmentation and Self-Normalizing Network for pCR Classification in Magnetic Resonance Images](http://arxiv.org/abs/2508.01831v1)** - [Code](https://github.com/toufiqmusah/caladan-mama-mia.git)
 * **[CLIMD: A Curriculum Learning Framework for Imbalanced Multimodal Diagnosis](http://arxiv.org/abs/2508.01594v1)** - [Code](https://github.com/KHan-UJS/CLIMD)
-* **[Diffusion-Based User-Guided Data Augmentation for Coronary Stenosis Detection](http://arxiv.org/abs/2508.00438v1)** - [Code](https://github.com/medipixel/DiGDA)
 <!-- END CLASSIFICATION_PAPERS -->
 
 ## 🔄 Image Registration
@@ -113,6 +112,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[Flip Distribution Alignment VAE for Multi-Phase MRI Synthesis](http://arxiv.org/abs/2510.02970v1)** - [Code](https://github.com/QianMuXiao/FDA-VAE)
 * **[SpurBreast: A Curated Dataset for Investigating Spurious Correlations in Real-world Breast MRI Classification](http://arxiv.org/abs/2510.02109v1)** - [Code](https://github.com/utkuozbulak/spurbreast)
 * **[Zero-shot Monocular Metric Depth for Endoscopic Images](http://arxiv.org/abs/2509.18642v1)** - [Code](https://github.com/TouchSurgery/EndoSynth)
 * **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
@@ -147,6 +147,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERATIVE_MODELS_PAPERS -->
+* **[Flip Distribution Alignment VAE for Multi-Phase MRI Synthesis](http://arxiv.org/abs/2510.02970v1)** - [Code](https://github.com/QianMuXiao/FDA-VAE)
 * **[Segmentor-Guided Counterfactual Fine-Tuning for Locally Coherent and Targeted Image Synthesis](http://arxiv.org/abs/2509.24913v2)** - [Code](https://github.com/biomedia-mira/seg-cft)
 * **[U-Mamba2-SSL for Semi-Supervised Tooth and Pulp Segmentation in CBCT](http://arxiv.org/abs/2509.20154v2)** - [Code](https://github.com/zhiqin1998/UMamba2)
 * **[Tooth-Diffusion: Guided 3D CBCT Synthesis with Fine-Grained Tooth Conditioning](http://arxiv.org/abs/2508.14276v1)** - [Code](https://github.com/djafar1/tooth-diffusion)
@@ -155,7 +156,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[MAUP: Training-free Multi-center Adaptive Uncertainty-aware Prompting for Cross-domain Few-shot Medical Image Segmentation](http://arxiv.org/abs/2508.03511v1)** - [Code](https://github.com/YazhouZhu19/MAUP)
 * **[GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images](http://arxiv.org/abs/2508.03357v1)** - [Code](https://github.com/diaoquesang/GL-LCM)
 * **[REFLECT: Rectified Flows for Efficient Brain Anomaly Correction Transport](http://arxiv.org/abs/2508.02889v1)** - [Code](https://github.com/farzad-bz/REFLECT)
-* **[Diffusion-Based User-Guided Data Augmentation for Coronary Stenosis Detection](http://arxiv.org/abs/2508.00438v1)** - [Code](https://github.com/medipixel/DiGDA)
 <!-- END GENERATIVE_MODELS_PAPERS -->
 
 ## 📚 General
@@ -172,6 +172,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-10-05 08:21 UTC by GitHub Actions
+**Last Updated**: 2025-10-06 08:26 UTC by GitHub Actions
 
 **License**: Apache License 2.0
