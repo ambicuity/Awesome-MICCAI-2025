@@ -163,6 +163,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERAL_PAPERS -->
+* **[MedPAO: A Protocol-Driven Agent for Structuring Medical Reports](http://arxiv.org/abs/2510.04623v1)** - [Code](https://github.com/MiRL-IITM/medpao-agent)
 * **[EchoingECG: An Electrocardiogram Cross-Modal Model for Echocardiogram Tasks](http://arxiv.org/abs/2509.25791v1)** - [Code](https://github.com/mcintoshML/EchoingECG)
 * **[Exploring Pre-training Across Domains for Few-Shot Surgical Skill Assessment](http://arxiv.org/abs/2509.09327v1)** - [Code](https://github.com/anastadimi/ssa-fsl)
 * **[Multi-modal Knowledge Decomposition based Online Distillation for Biomarker Prediction in Breast Cancer Histopathology](http://arxiv.org/abs/2508.17213v1)** - [Code](https://github.com/qiyuanzz/MICCAI2025_MKD)
@@ -172,6 +173,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-10-06 08:26 UTC by GitHub Actions
+**Last Updated**: 2025-10-07 08:26 UTC by GitHub Actions
 
 **License**: Apache License 2.0
