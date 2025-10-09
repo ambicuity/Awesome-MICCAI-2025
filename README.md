@@ -57,7 +57,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[REFLECT: Rectified Flows for Efficient Brain Anomaly Correction Transport](http://arxiv.org/abs/2508.02889v1)** - [Code](https://github.com/farzad-bz/REFLECT)
 * **[M$^3$HL: Mutual Mask Mix with High-Low Level Feature Consistency for Semi-Supervised Medical Image Segmentation](http://arxiv.org/abs/2508.03752v1)** - [Code](https://github.com/PHPJava666/M3HL)
 * **[Large Kernel MedNeXt for Breast Tumor Segmentation and Self-Normalizing Network for pCR Classification in Magnetic Resonance Images](http://arxiv.org/abs/2508.01831v1)** - [Code](https://github.com/toufiqmusah/caladan-mama-mia.git)
-* **[Skip priors and add graph-based anatomical information, for point-based Couinaud segmentation](http://arxiv.org/abs/2508.01785v1)** - [Code](https://github.com/ZhangXiaotong015/GrPn)
 <!-- END SEGMENTATION_PAPERS -->
 
 ## 🔧 Reconstruction
@@ -80,6 +79,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[Adaptive Stain Normalization for Cross-Domain Medical Histology](http://arxiv.org/abs/2510.06592v1)** - [Code](https://github.com/xutianyue/BeerLaNet)
 * **[SpurBreast: A Curated Dataset for Investigating Spurious Correlations in Real-world Breast MRI Classification](http://arxiv.org/abs/2510.02109v1)** - [Code](https://github.com/utkuozbulak/spurbreast)
 * **[Segmentor-Guided Counterfactual Fine-Tuning for Locally Coherent and Targeted Image Synthesis](http://arxiv.org/abs/2509.24913v2)** - [Code](https://github.com/biomedia-mira/seg-cft)
 * **[High-Order Progressive Trajectory Matching for Medical Image Dataset Distillation](http://arxiv.org/abs/2509.24177v1)** - [Code](https://github.com/Bian-jh/HoP-TM)
@@ -104,7 +104,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images](http://arxiv.org/abs/2508.03357v1)** - [Code](https://github.com/diaoquesang/GL-LCM)
 * **[REFLECT: Rectified Flows for Efficient Brain Anomaly Correction Transport](http://arxiv.org/abs/2508.02889v1)** - [Code](https://github.com/farzad-bz/REFLECT)
 * **[Large Kernel MedNeXt for Breast Tumor Segmentation and Self-Normalizing Network for pCR Classification in Magnetic Resonance Images](http://arxiv.org/abs/2508.01831v1)** - [Code](https://github.com/toufiqmusah/caladan-mama-mia.git)
-* **[CLIMD: A Curriculum Learning Framework for Imbalanced Multimodal Diagnosis](http://arxiv.org/abs/2508.01594v1)** - [Code](https://github.com/KHan-UJS/CLIMD)
 <!-- END CLASSIFICATION_PAPERS -->
 
 ## 🔄 Image Registration
@@ -133,6 +132,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN DOMAIN_ADAPTATION_PAPERS -->
+* **[Adaptive Stain Normalization for Cross-Domain Medical Histology](http://arxiv.org/abs/2510.06592v1)** - [Code](https://github.com/xutianyue/BeerLaNet)
 * **[SpurBreast: A Curated Dataset for Investigating Spurious Correlations in Real-world Breast MRI Classification](http://arxiv.org/abs/2510.02109v1)** - [Code](https://github.com/utkuozbulak/spurbreast)
 * **[Disentanglement of Biological and Technical Factors via Latent Space Rotation in Clinical Imaging Improves Disease Pattern Discovery](http://arxiv.org/abs/2509.11436v1)** - [Code](https://github.com/cirmuw/latent-space-rotation-disentanglement)
 * **[Leveraging Generic Foundation Models for Multimodal Surgical Data Analysis](http://arxiv.org/abs/2509.06831v1)** - [Code](https://github.com/DigitalSurgeryLab-Basel/ML-CDS-2025)
@@ -173,6 +173,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-10-08 08:26 UTC by GitHub Actions
+**Last Updated**: 2025-10-09 08:26 UTC by GitHub Actions
 
 **License**: Apache License 2.0
