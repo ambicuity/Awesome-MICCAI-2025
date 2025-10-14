@@ -55,8 +55,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[MAUP: Training-free Multi-center Adaptive Uncertainty-aware Prompting for Cross-domain Few-shot Medical Image Segmentation](http://arxiv.org/abs/2508.03511v1)** - [Code](https://github.com/YazhouZhu19/MAUP)
 * **[GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images](http://arxiv.org/abs/2508.03357v1)** - [Code](https://github.com/diaoquesang/GL-LCM)
 * **[REFLECT: Rectified Flows for Efficient Brain Anomaly Correction Transport](http://arxiv.org/abs/2508.02889v1)** - [Code](https://github.com/farzad-bz/REFLECT)
-* **[M$^3$HL: Mutual Mask Mix with High-Low Level Feature Consistency for Semi-Supervised Medical Image Segmentation](http://arxiv.org/abs/2508.03752v1)** - [Code](https://github.com/PHPJava666/M3HL)
-* **[Large Kernel MedNeXt for Breast Tumor Segmentation and Self-Normalizing Network for pCR Classification in Magnetic Resonance Images](http://arxiv.org/abs/2508.01831v1)** - [Code](https://github.com/toufiqmusah/caladan-mama-mia.git)
 <!-- END SEGMENTATION_PAPERS -->
 
 ## 🔧 Reconstruction
@@ -103,7 +101,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[MOC: Meta-Optimized Classifier for Few-Shot Whole Slide Image Classification](http://arxiv.org/abs/2508.09967v1)** - [Code](https://github.com/xmed-lab/MOC)
 * **[GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images](http://arxiv.org/abs/2508.03357v1)** - [Code](https://github.com/diaoquesang/GL-LCM)
 * **[REFLECT: Rectified Flows for Efficient Brain Anomaly Correction Transport](http://arxiv.org/abs/2508.02889v1)** - [Code](https://github.com/farzad-bz/REFLECT)
-* **[Large Kernel MedNeXt for Breast Tumor Segmentation and Self-Normalizing Network for pCR Classification in Magnetic Resonance Images](http://arxiv.org/abs/2508.01831v1)** - [Code](https://github.com/toufiqmusah/caladan-mama-mia.git)
 <!-- END CLASSIFICATION_PAPERS -->
 
 ## 🔄 Image Registration
@@ -139,7 +136,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Tooth-Diffusion: Guided 3D CBCT Synthesis with Fine-Grained Tooth Conditioning](http://arxiv.org/abs/2508.14276v1)** - [Code](https://github.com/djafar1/tooth-diffusion)
 * **[HierAdaptMR: Cross-Center Cardiac MRI Reconstruction with Hierarchical Feature Adapters](http://arxiv.org/abs/2508.13026v1)** - [Code](https://github.com/Ruru-Xu/HierAdaptMR)
 * **[MAUP: Training-free Multi-center Adaptive Uncertainty-aware Prompting for Cross-domain Few-shot Medical Image Segmentation](http://arxiv.org/abs/2508.03511v1)** - [Code](https://github.com/YazhouZhu19/MAUP)
-* **[Large Kernel MedNeXt for Breast Tumor Segmentation and Self-Normalizing Network for pCR Classification in Magnetic Resonance Images](http://arxiv.org/abs/2508.01831v1)** - [Code](https://github.com/toufiqmusah/caladan-mama-mia.git)
 <!-- END DOMAIN_ADAPTATION_PAPERS -->
 
 ## 🎨 Generative Models
@@ -173,6 +169,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-10-13 08:28 UTC by GitHub Actions
+**Last Updated**: 2025-10-14 08:25 UTC by GitHub Actions
 
 **License**: Apache License 2.0
