@@ -54,7 +54,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Tooth-Diffusion: Guided 3D CBCT Synthesis with Fine-Grained Tooth Conditioning](http://arxiv.org/abs/2508.14276v1)** - [Code](https://github.com/djafar1/tooth-diffusion)
 * **[MAUP: Training-free Multi-center Adaptive Uncertainty-aware Prompting for Cross-domain Few-shot Medical Image Segmentation](http://arxiv.org/abs/2508.03511v1)** - [Code](https://github.com/YazhouZhu19/MAUP)
 * **[GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images](http://arxiv.org/abs/2508.03357v1)** - [Code](https://github.com/diaoquesang/GL-LCM)
-* **[REFLECT: Rectified Flows for Efficient Brain Anomaly Correction Transport](http://arxiv.org/abs/2508.02889v1)** - [Code](https://github.com/farzad-bz/REFLECT)
 <!-- END SEGMENTATION_PAPERS -->
 
 ## 🔧 Reconstruction
@@ -100,7 +99,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[FIND-Net -- Fourier-Integrated Network with Dictionary Kernels for Metal Artifact Reduction](http://arxiv.org/abs/2508.10617v1)** - [Code](https://github.com/Farid-Tasharofi/FIND-Net)
 * **[MOC: Meta-Optimized Classifier for Few-Shot Whole Slide Image Classification](http://arxiv.org/abs/2508.09967v1)** - [Code](https://github.com/xmed-lab/MOC)
 * **[GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images](http://arxiv.org/abs/2508.03357v1)** - [Code](https://github.com/diaoquesang/GL-LCM)
-* **[REFLECT: Rectified Flows for Efficient Brain Anomaly Correction Transport](http://arxiv.org/abs/2508.02889v1)** - [Code](https://github.com/farzad-bz/REFLECT)
 <!-- END CLASSIFICATION_PAPERS -->
 
 ## 🔄 Image Registration
@@ -151,7 +149,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Deep Learning Enables Large-Scale Shape and Appearance Modeling in Total-Body DXA Imaging](http://arxiv.org/abs/2508.10132v1)** - [Code](https://github.com/hawaii-ai/dxa-pointplacement)
 * **[MAUP: Training-free Multi-center Adaptive Uncertainty-aware Prompting for Cross-domain Few-shot Medical Image Segmentation](http://arxiv.org/abs/2508.03511v1)** - [Code](https://github.com/YazhouZhu19/MAUP)
 * **[GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images](http://arxiv.org/abs/2508.03357v1)** - [Code](https://github.com/diaoquesang/GL-LCM)
-* **[REFLECT: Rectified Flows for Efficient Brain Anomaly Correction Transport](http://arxiv.org/abs/2508.02889v1)** - [Code](https://github.com/farzad-bz/REFLECT)
 <!-- END GENERATIVE_MODELS_PAPERS -->
 
 ## 📚 General
@@ -169,6 +166,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-10-14 08:25 UTC by GitHub Actions
+**Last Updated**: 2025-10-15 08:27 UTC by GitHub Actions
 
 **License**: Apache License 2.0
