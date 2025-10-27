@@ -37,23 +37,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
-* **[Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning](http://arxiv.org/abs/2510.00416v1)** - [Code](https://github.com/snuh-rad-aicon/Interactive-MEN-RT)
-* **[Segmentor-Guided Counterfactual Fine-Tuning for Locally Coherent and Targeted Image Synthesis](http://arxiv.org/abs/2509.24913v2)** - [Code](https://github.com/biomedia-mira/seg-cft)
-* **[U-Mamba2-SSL for Semi-Supervised Tooth and Pulp Segmentation in CBCT](http://arxiv.org/abs/2509.20154v2)** - [Code](https://github.com/zhiqin1998/UMamba2)
-* **[Anomaly Detection by Clustering DINO Embeddings using a Dirichlet Process Mixture](http://arxiv.org/abs/2509.19997v1)** - [Code](https://github.com/NicoSchulthess/anomalydino-dpmm)
-* **[Zero-shot Monocular Metric Depth for Endoscopic Images](http://arxiv.org/abs/2509.18642v1)** - [Code](https://github.com/TouchSurgery/EndoSynth)
-* **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
 * **[Consistent View Alignment Improves Foundation Models for 3D Medical Image Segmentation](http://arxiv.org/abs/2509.13846v1)** - [Code](https://github.com/Tenbatsu24/LatentCampus)
-* **[U-Mamba2: Scaling State Space Models for Dental Anatomy Segmentation in CBCT](http://arxiv.org/abs/2509.12069v2)** - [Code](https://github.com/zhiqin1998/UMamba2)
-* **[Modality-Agnostic Input Channels Enable Segmentation of Brain lesions in Multimodal MRI with Sequences Unavailable During Training](http://arxiv.org/abs/2509.09290v1)** - [Code](https://github.com/Anthony-P-Addison/AGN-MOD-SEG)
-* **[UltrON: Ultrasound Occupancy Networks](http://arxiv.org/abs/2509.08991v1)** - [Code](https://github.com/magdalena-wysocki/ultron)
-* **[SimCroP: Radiograph Representation Learning with Similarity-driven Cross-granularity Pre-training](http://arxiv.org/abs/2509.08311v1)** - [Code](https://github.com/ToniChopp/SimCroP)
-* **[XOCT: Enhancing OCT to OCTA Translation via Cross-Dimensional Supervised Multi-Scale Feature Learning](http://arxiv.org/abs/2509.07455v1)** - [Code](https://github.com/uci-cbcl/XOCT)
-* **[Co-Seg: Mutual Prompt-Guided Collaborative Learning for Tissue and Nuclei Segmentation](http://arxiv.org/abs/2509.06740v1)** - [Code](https://github.com/xq141839/Co-Seg)
-* **[E-BayesSAM: Efficient Bayesian Adaptation of SAM with Self-Optimizing KAN-Based Interpretation for Uncertainty-Aware Ultrasonic Segmentation](http://arxiv.org/abs/2508.17408v1)** - [Code](https://github.com/mp31192/E-BayesSAM)
-* **[Tooth-Diffusion: Guided 3D CBCT Synthesis with Fine-Grained Tooth Conditioning](http://arxiv.org/abs/2508.14276v1)** - [Code](https://github.com/djafar1/tooth-diffusion)
-* **[MAUP: Training-free Multi-center Adaptive Uncertainty-aware Prompting for Cross-domain Few-shot Medical Image Segmentation](http://arxiv.org/abs/2508.03511v1)** - [Code](https://github.com/YazhouZhu19/MAUP)
-* **[GL-LCM: Global-Local Latent Consistency Models for Fast High-Resolution Bone Suppression in Chest X-Ray Images](http://arxiv.org/abs/2508.03357v1)** - [Code](https://github.com/diaoquesang/GL-LCM)
 <!-- END SEGMENTATION_PAPERS -->
 
 ## 🔧 Reconstruction
@@ -106,20 +90,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
-* **[Flip Distribution Alignment VAE for Multi-Phase MRI Synthesis](http://arxiv.org/abs/2510.02970v1)** - [Code](https://github.com/QianMuXiao/FDA-VAE)
-* **[SpurBreast: A Curated Dataset for Investigating Spurious Correlations in Real-world Breast MRI Classification](http://arxiv.org/abs/2510.02109v1)** - [Code](https://github.com/utkuozbulak/spurbreast)
-* **[Zero-shot Monocular Metric Depth for Endoscopic Images](http://arxiv.org/abs/2509.18642v1)** - [Code](https://github.com/TouchSurgery/EndoSynth)
-* **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
 * **[Consistent View Alignment Improves Foundation Models for 3D Medical Image Segmentation](http://arxiv.org/abs/2509.13846v1)** - [Code](https://github.com/Tenbatsu24/LatentCampus)
-* **[More performant and scalable: Rethinking contrastive vision-language pre-training of radiology in the LLM era](http://arxiv.org/abs/2509.13175v1)** - [Code](https://github.com/SadVoxel/More-performant-and-scalable)
-* **[Robust Fetal Pose Estimation across Gestational Ages via Cross-Population Augmentation](http://arxiv.org/abs/2509.12062v1)** - [Code](https://github.com/sebodiaz/cross-population-pose)
-* **[Invisible Attributes, Visible Biases: Exploring Demographic Shortcuts in MRI-based Alzheimer's Disease Classification](http://arxiv.org/abs/2509.09558v1)** - [Code](https://github.com/acharaakshit/ShortMR)
-* **[SimCroP: Radiograph Representation Learning with Similarity-driven Cross-granularity Pre-training](http://arxiv.org/abs/2509.08311v1)** - [Code](https://github.com/ToniChopp/SimCroP)
-* **[XOCT: Enhancing OCT to OCTA Translation via Cross-Dimensional Supervised Multi-Scale Feature Learning](http://arxiv.org/abs/2509.07455v1)** - [Code](https://github.com/uci-cbcl/XOCT)
-* **[Neural Proteomics Fields for Super-resolved Spatial Proteomics Prediction](http://arxiv.org/abs/2508.17389v1)** - [Code](https://github.com/Bokai-Zhao/NPF)
-* **[Gaussian Primitive Optimized Deformable Retinal Image Registration](http://arxiv.org/abs/2508.16852v1)** - [Code](https://github.com/xintian-99/GPOreg)
-* **[OccluNet: Spatio-Temporal Deep Learning for Occlusion Detection on DSA](http://arxiv.org/abs/2508.14286v1)** - [Code](https://github.com/anushka-kore/OccluNet.git)
-* **[Deep Biomechanically-Guided Interpolation for Keypoint-Based Brain Shift Registration](http://arxiv.org/abs/2508.13762v1)** - [Code](https://github.com/tiago-assis/Deep-Biomechanical-Interpolator}{https://github.com/tiago-assis/Deep-Biomechanical-Interpolator)
 <!-- END IMAGE_REGISTRATION_PAPERS -->
 
 ## 🔀 Domain Adaptation
@@ -166,6 +137,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-10-26 08:23 UTC by GitHub Actions
+**Last Updated**: 2025-10-27 08:28 UTC by GitHub Actions
 
 **License**: Apache License 2.0
