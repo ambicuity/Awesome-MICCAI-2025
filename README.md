@@ -37,6 +37,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[MeisenMeister: A Simple Two Stage Pipeline for Breast Cancer Classification on MRI](http://arxiv.org/abs/2510.27326v1)** - [Code](https://github.com/MIC-DKFZ/MeisenMeister)
 * **[Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning](http://arxiv.org/abs/2510.00416v1)** - [Code](https://github.com/snuh-rad-aicon/Interactive-MEN-RT)
 * **[Segmentor-Guided Counterfactual Fine-Tuning for Locally Coherent and Targeted Image Synthesis](http://arxiv.org/abs/2509.24913v2)** - [Code](https://github.com/biomedia-mira/seg-cft)
 * **[U-Mamba2-SSL for Semi-Supervised Tooth and Pulp Segmentation in CBCT](http://arxiv.org/abs/2509.20154v2)** - [Code](https://github.com/zhiqin1998/UMamba2)
@@ -52,7 +53,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Co-Seg: Mutual Prompt-Guided Collaborative Learning for Tissue and Nuclei Segmentation](http://arxiv.org/abs/2509.06740v1)** - [Code](https://github.com/xq141839/Co-Seg)
 * **[E-BayesSAM: Efficient Bayesian Adaptation of SAM with Self-Optimizing KAN-Based Interpretation for Uncertainty-Aware Ultrasonic Segmentation](http://arxiv.org/abs/2508.17408v1)** - [Code](https://github.com/mp31192/E-BayesSAM)
 * **[Tooth-Diffusion: Guided 3D CBCT Synthesis with Fine-Grained Tooth Conditioning](http://arxiv.org/abs/2508.14276v1)** - [Code](https://github.com/djafar1/tooth-diffusion)
-* **[MAUP: Training-free Multi-center Adaptive Uncertainty-aware Prompting for Cross-domain Few-shot Medical Image Segmentation](http://arxiv.org/abs/2508.03511v1)** - [Code](https://github.com/YazhouZhu19/MAUP)
 <!-- END SEGMENTATION_PAPERS -->
 
 ## 🔧 Reconstruction
@@ -67,7 +67,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Tooth-Diffusion: Guided 3D CBCT Synthesis with Fine-Grained Tooth Conditioning](http://arxiv.org/abs/2508.14276v1)** - [Code](https://github.com/djafar1/tooth-diffusion)
 * **[HierAdaptMR: Cross-Center Cardiac MRI Reconstruction with Hierarchical Feature Adapters](http://arxiv.org/abs/2508.13026v1)** - [Code](https://github.com/Ruru-Xu/HierAdaptMR)
 * **[Cross-view Generalized Diffusion Model for Sparse-view CT Reconstruction](http://arxiv.org/abs/2508.10313v1)** - [Code](https://github.com/xmed-lab/CvG-Diff)
-* **[Adaptive k-space Radial Sampling for Cardiac MRI with Reinforcement Learning](http://arxiv.org/abs/2508.04727v2)** - [Code](https://github.com/Ruru-Xu/RL-kspace-Radial-Sampling)
 <!-- END RECONSTRUCTION_PAPERS -->
 
 ## 🏷️ Classification
@@ -75,6 +74,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN CLASSIFICATION_PAPERS -->
+* **[MeisenMeister: A Simple Two Stage Pipeline for Breast Cancer Classification on MRI](http://arxiv.org/abs/2510.27326v1)** - [Code](https://github.com/MIC-DKFZ/MeisenMeister)
 * **[Adaptive Stain Normalization for Cross-Domain Medical Histology](http://arxiv.org/abs/2510.06592v1)** - [Code](https://github.com/xutianyue/BeerLaNet)
 * **[SpurBreast: A Curated Dataset for Investigating Spurious Correlations in Real-world Breast MRI Classification](http://arxiv.org/abs/2510.02109v1)** - [Code](https://github.com/utkuozbulak/spurbreast)
 * **[Segmentor-Guided Counterfactual Fine-Tuning for Locally Coherent and Targeted Image Synthesis](http://arxiv.org/abs/2509.24913v2)** - [Code](https://github.com/biomedia-mira/seg-cft)
@@ -131,7 +131,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Leveraging Generic Foundation Models for Multimodal Surgical Data Analysis](http://arxiv.org/abs/2509.06831v1)** - [Code](https://github.com/DigitalSurgeryLab-Basel/ML-CDS-2025)
 * **[Tooth-Diffusion: Guided 3D CBCT Synthesis with Fine-Grained Tooth Conditioning](http://arxiv.org/abs/2508.14276v1)** - [Code](https://github.com/djafar1/tooth-diffusion)
 * **[HierAdaptMR: Cross-Center Cardiac MRI Reconstruction with Hierarchical Feature Adapters](http://arxiv.org/abs/2508.13026v1)** - [Code](https://github.com/Ruru-Xu/HierAdaptMR)
-* **[MAUP: Training-free Multi-center Adaptive Uncertainty-aware Prompting for Cross-domain Few-shot Medical Image Segmentation](http://arxiv.org/abs/2508.03511v1)** - [Code](https://github.com/YazhouZhu19/MAUP)
 <!-- END DOMAIN_ADAPTATION_PAPERS -->
 
 ## 🎨 Generative Models
@@ -145,7 +144,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Tooth-Diffusion: Guided 3D CBCT Synthesis with Fine-Grained Tooth Conditioning](http://arxiv.org/abs/2508.14276v1)** - [Code](https://github.com/djafar1/tooth-diffusion)
 * **[Cross-view Generalized Diffusion Model for Sparse-view CT Reconstruction](http://arxiv.org/abs/2508.10313v1)** - [Code](https://github.com/xmed-lab/CvG-Diff)
 * **[Deep Learning Enables Large-Scale Shape and Appearance Modeling in Total-Body DXA Imaging](http://arxiv.org/abs/2508.10132v1)** - [Code](https://github.com/hawaii-ai/dxa-pointplacement)
-* **[MAUP: Training-free Multi-center Adaptive Uncertainty-aware Prompting for Cross-domain Few-shot Medical Image Segmentation](http://arxiv.org/abs/2508.03511v1)** - [Code](https://github.com/YazhouZhu19/MAUP)
 <!-- END GENERATIVE_MODELS_PAPERS -->
 
 ## 📚 General
@@ -163,6 +161,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-11-02 08:22 UTC by GitHub Actions
+**Last Updated**: 2025-11-03 08:28 UTC by GitHub Actions
 
 **License**: Apache License 2.0
