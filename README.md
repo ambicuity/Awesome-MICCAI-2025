@@ -41,6 +41,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Consistent View Alignment Improves Foundation Models for 3D Medical Image Segmentation](http://arxiv.org/abs/2509.13846v1)** - [Code](https://github.com/Tenbatsu24/LatentCampus)
 * **[UltrON: Ultrasound Occupancy Networks](http://arxiv.org/abs/2509.08991v1)** - [Code](https://github.com/magdalena-wysocki/ultron)
 * **[SimCroP: Radiograph Representation Learning with Similarity-driven Cross-granularity Pre-training](http://arxiv.org/abs/2509.08311v1)** - [Code](https://github.com/ToniChopp/SimCroP)
+* **[Co-Seg: Mutual Prompt-Guided Collaborative Learning for Tissue and Nuclei Segmentation](http://arxiv.org/abs/2509.06740v1)** - [Code](https://github.com/xq141839/Co-Seg)
 * **[MAUP: Training-free Multi-center Adaptive Uncertainty-aware Prompting for Cross-domain Few-shot Medical Image Segmentation](http://arxiv.org/abs/2508.03511v1)** - [Code](https://github.com/YazhouZhu19/MAUP)
 * **[M$^3$HL: Mutual Mask Mix with High-Low Level Feature Consistency for Semi-Supervised Medical Image Segmentation](http://arxiv.org/abs/2508.03752v1)** - [Code](https://github.com/PHPJava666/M3HL)
 * **[HRVVS: A High-resolution Video Vasculature Segmentation Network via Hierarchical Autoregressive Residual Priors](http://arxiv.org/abs/2507.22530v2)** - [Code](https://github.com/scott-yjyang/HRVVS)
@@ -182,6 +183,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 <!-- BEGIN GENERAL_PAPERS -->
 * **[EchoingECG: An Electrocardiogram Cross-Modal Model for Echocardiogram Tasks](http://arxiv.org/abs/2509.25791v1)** - [Code](https://github.com/mcintoshML/EchoingECG)
+* **[Multi-modal Knowledge Decomposition based Online Distillation for Biomarker Prediction in Breast Cancer Histopathology](http://arxiv.org/abs/2508.17213v1)** - [Code](https://github.com/qiyuanzz/MICCAI2025_MKD)
 * **[Temporally-Aware Supervised Contrastive Learning for Polyp Counting in Colonoscopy](http://arxiv.org/abs/2507.02493v1)** - [Code](https://github.com/lparolari/temporally-aware-polyp-counting)
 * **[Accurate and Efficient Fetal Birth Weight Estimation from 3D Ultrasound](http://arxiv.org/abs/2507.00398v1)** - [Code](https://github.com/Qioy-i/EFW)
 * **[Fusing Radiomic Features with Deep Representations for Gestational Age Estimation in Fetal Ultrasound Images](http://arxiv.org/abs/2506.20407v2)** - [Code](https://github.com/13204942/RadiomicsImageFusion_FetalUS)
@@ -191,6 +193,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-11-13 08:29 UTC by GitHub Actions
+**Last Updated**: 2025-11-14 08:27 UTC by GitHub Actions
 
 **License**: Apache License 2.0
