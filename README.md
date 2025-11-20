@@ -61,6 +61,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN RECONSTRUCTION_PAPERS -->
+* **[US-X Complete: A Multi-Modal Approach to Anatomical 3D Shape Recovery](http://arxiv.org/abs/2511.15600v1)** - [Code](https://github.com/miruna20/US-X-Complete)
 * **[Benchmark-Ready 3D Anatomical Shape Classification](http://arxiv.org/abs/2511.01613v1)** - [Code](https://github.com/TomasKrsicka/MedShapeNet19-PSPooling)
 * **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
 * **[UltrON: Ultrasound Occupancy Networks](http://arxiv.org/abs/2509.08991v1)** - [Code](https://github.com/magdalena-wysocki/ultron)
@@ -102,6 +103,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[US-X Complete: A Multi-Modal Approach to Anatomical 3D Shape Recovery](http://arxiv.org/abs/2511.15600v1)** - [Code](https://github.com/miruna20/US-X-Complete)
 * **[Flip Distribution Alignment VAE for Multi-Phase MRI Synthesis](http://arxiv.org/abs/2510.02970v1)** - [Code](https://github.com/QianMuXiao/FDA-VAE)
 * **[SpurBreast: A Curated Dataset for Investigating Spurious Correlations in Real-world Breast MRI Classification](http://arxiv.org/abs/2510.02109v1)** - [Code](https://github.com/utkuozbulak/spurbreast)
 * **[Zero-shot Monocular Metric Depth for Endoscopic Images](http://arxiv.org/abs/2509.18642v1)** - [Code](https://github.com/TouchSurgery/EndoSynth)
@@ -114,7 +116,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[SimCroP: Radiograph Representation Learning with Similarity-driven Cross-granularity Pre-training](http://arxiv.org/abs/2509.08311v1)** - [Code](https://github.com/ToniChopp/SimCroP)
 * **[XOCT: Enhancing OCT to OCTA Translation via Cross-Dimensional Supervised Multi-Scale Feature Learning](http://arxiv.org/abs/2509.07455v1)** - [Code](https://github.com/uci-cbcl/XOCT)
 * **[Neural Proteomics Fields for Super-resolved Spatial Proteomics Prediction](http://arxiv.org/abs/2508.17389v1)** - [Code](https://github.com/Bokai-Zhao/NPF)
-* **[Gaussian Primitive Optimized Deformable Retinal Image Registration](http://arxiv.org/abs/2508.16852v1)** - [Code](https://github.com/xintian-99/GPOreg)
 <!-- END IMAGE_REGISTRATION_PAPERS -->
 
 ## 🔀 Domain Adaptation
@@ -156,6 +157,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-11-19 08:28 UTC by GitHub Actions
+**Last Updated**: 2025-11-20 08:28 UTC by GitHub Actions
 
 **License**: Apache License 2.0
