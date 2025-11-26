@@ -66,7 +66,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
 * **[UltrON: Ultrasound Occupancy Networks](http://arxiv.org/abs/2509.08991v1)** - [Code](https://github.com/magdalena-wysocki/ultron)
 * **[XOCT: Enhancing OCT to OCTA Translation via Cross-Dimensional Supervised Multi-Scale Feature Learning](http://arxiv.org/abs/2509.07455v1)** - [Code](https://github.com/uci-cbcl/XOCT)
-* **[Neural Proteomics Fields for Super-resolved Spatial Proteomics Prediction](http://arxiv.org/abs/2508.17389v1)** - [Code](https://github.com/Bokai-Zhao/NPF)
 <!-- END RECONSTRUCTION_PAPERS -->
 
 ## 🏷️ Classification
@@ -115,7 +114,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Implicit Neural Representations of Intramyocardial Motion and Strain](http://arxiv.org/abs/2509.09004v4)** - [Code](https://github.com/andrewjackbell/Displacement-INR)
 * **[SimCroP: Radiograph Representation Learning with Similarity-driven Cross-granularity Pre-training](http://arxiv.org/abs/2509.08311v1)** - [Code](https://github.com/ToniChopp/SimCroP)
 * **[XOCT: Enhancing OCT to OCTA Translation via Cross-Dimensional Supervised Multi-Scale Feature Learning](http://arxiv.org/abs/2509.07455v1)** - [Code](https://github.com/uci-cbcl/XOCT)
-* **[Neural Proteomics Fields for Super-resolved Spatial Proteomics Prediction](http://arxiv.org/abs/2508.17389v1)** - [Code](https://github.com/Bokai-Zhao/NPF)
 <!-- END IMAGE_REGISTRATION_PAPERS -->
 
 ## 🔀 Domain Adaptation
@@ -150,13 +148,12 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[EchoingECG: An Electrocardiogram Cross-Modal Model for Echocardiogram Tasks](http://arxiv.org/abs/2509.25791v1)** - [Code](https://github.com/mcintoshML/EchoingECG)
 * **[Evaluating Foundation Models with Pathological Concept Learning for Kidney Cancer](http://arxiv.org/abs/2509.25552v1)** - [Code](https://github.com/shangqigao/RadioPath)
 * **[Exploring Pre-training Across Domains for Few-Shot Surgical Skill Assessment](http://arxiv.org/abs/2509.09327v1)** - [Code](https://github.com/anastadimi/ssa-fsl)
-* **[Multi-modal Knowledge Decomposition based Online Distillation for Biomarker Prediction in Breast Cancer Histopathology](http://arxiv.org/abs/2508.17213v1)** - [Code](https://github.com/qiyuanzz/MICCAI2025_MKD)
 <!-- END GENERAL_PAPERS -->
 
 ---
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-11-25 08:29 UTC by GitHub Actions
+**Last Updated**: 2025-11-26 08:28 UTC by GitHub Actions
 
 **License**: Apache License 2.0
