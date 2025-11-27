@@ -53,7 +53,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[SimCroP: Radiograph Representation Learning with Similarity-driven Cross-granularity Pre-training](http://arxiv.org/abs/2509.08311v1)** - [Code](https://github.com/ToniChopp/SimCroP)
 * **[XOCT: Enhancing OCT to OCTA Translation via Cross-Dimensional Supervised Multi-Scale Feature Learning](http://arxiv.org/abs/2509.07455v1)** - [Code](https://github.com/uci-cbcl/XOCT)
 * **[Co-Seg: Mutual Prompt-Guided Collaborative Learning for Tissue and Nuclei Segmentation](http://arxiv.org/abs/2509.06740v1)** - [Code](https://github.com/xq141839/Co-Seg)
-* **[E-BayesSAM: Efficient Bayesian Adaptation of SAM with Self-Optimizing KAN-Based Interpretation for Uncertainty-Aware Ultrasonic Segmentation](http://arxiv.org/abs/2508.17408v1)** - [Code](https://github.com/mp31192/E-BayesSAM)
 <!-- END SEGMENTATION_PAPERS -->
 
 ## 🔧 Reconstruction
@@ -154,6 +153,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-11-26 08:28 UTC by GitHub Actions
+**Last Updated**: 2025-11-27 08:29 UTC by GitHub Actions
 
 **License**: Apache License 2.0
