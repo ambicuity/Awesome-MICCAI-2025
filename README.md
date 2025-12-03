@@ -37,6 +37,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[MICCAI STSR 2025 Challenge: Semi-Supervised Teeth and Pulp Segmentation and CBCT-IOS Registration](http://arxiv.org/abs/2512.02867v1)** - [Code](https://github.com/ricoleehduu/STS-Challenge-2025)
 * **[Augment to Augment: Diverse Augmentations Enable Competitive Ultra-Low-Field MRI Enhancement](http://arxiv.org/abs/2511.09366v1)** - [Code](https://github.com/fzimmermann89/low-field-enhancement)
 * **[Benchmark-Ready 3D Anatomical Shape Classification](http://arxiv.org/abs/2511.01613v1)** - [Code](https://github.com/TomasKrsicka/MedShapeNet19-PSPooling)
 * **[MeisenMeister: A Simple Two Stage Pipeline for Breast Cancer Classification on MRI](http://arxiv.org/abs/2510.27326v1)** - [Code](https://github.com/MIC-DKFZ/MeisenMeister)
@@ -101,6 +102,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[MICCAI STSR 2025 Challenge: Semi-Supervised Teeth and Pulp Segmentation and CBCT-IOS Registration](http://arxiv.org/abs/2512.02867v1)** - [Code](https://github.com/ricoleehduu/STS-Challenge-2025)
 * **[US-X Complete: A Multi-Modal Approach to Anatomical 3D Shape Recovery](http://arxiv.org/abs/2511.15600v1)** - [Code](https://github.com/miruna20/US-X-Complete)
 * **[Flip Distribution Alignment VAE for Multi-Phase MRI Synthesis](http://arxiv.org/abs/2510.02970v1)** - [Code](https://github.com/QianMuXiao/FDA-VAE)
 * **[SpurBreast: A Curated Dataset for Investigating Spurious Correlations in Real-world Breast MRI Classification](http://arxiv.org/abs/2510.02109v1)** - [Code](https://github.com/utkuozbulak/spurbreast)
@@ -131,6 +133,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERATIVE_MODELS_PAPERS -->
+* **[MICCAI STSR 2025 Challenge: Semi-Supervised Teeth and Pulp Segmentation and CBCT-IOS Registration](http://arxiv.org/abs/2512.02867v1)** - [Code](https://github.com/ricoleehduu/STS-Challenge-2025)
 * **[Benchmark-Ready 3D Anatomical Shape Classification](http://arxiv.org/abs/2511.01613v1)** - [Code](https://github.com/TomasKrsicka/MedShapeNet19-PSPooling)
 * **[Flip Distribution Alignment VAE for Multi-Phase MRI Synthesis](http://arxiv.org/abs/2510.02970v1)** - [Code](https://github.com/QianMuXiao/FDA-VAE)
 * **[Segmentor-Guided Counterfactual Fine-Tuning for Locally Coherent and Targeted Image Synthesis](http://arxiv.org/abs/2509.24913v2)** - [Code](https://github.com/biomedia-mira/seg-cft)
@@ -153,6 +156,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-12-02 08:31 UTC by GitHub Actions
+**Last Updated**: 2025-12-03 08:30 UTC by GitHub Actions
 
 **License**: Apache License 2.0
