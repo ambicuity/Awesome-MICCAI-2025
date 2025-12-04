@@ -102,6 +102,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[ProtoEFNet: Dynamic Prototype Learning for Inherently Interpretable Ejection Fraction Estimation in Echocardiography](http://arxiv.org/abs/2512.03339v1)** - [Code](https://github.com/DeepRCL/ProtoEF)
 * **[MICCAI STSR 2025 Challenge: Semi-Supervised Teeth and Pulp Segmentation and CBCT-IOS Registration](http://arxiv.org/abs/2512.02867v1)** - [Code](https://github.com/ricoleehduu/STS-Challenge-2025)
 * **[US-X Complete: A Multi-Modal Approach to Anatomical 3D Shape Recovery](http://arxiv.org/abs/2511.15600v1)** - [Code](https://github.com/miruna20/US-X-Complete)
 * **[Flip Distribution Alignment VAE for Multi-Phase MRI Synthesis](http://arxiv.org/abs/2510.02970v1)** - [Code](https://github.com/QianMuXiao/FDA-VAE)
@@ -156,6 +157,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-12-03 08:30 UTC by GitHub Actions
+**Last Updated**: 2025-12-04 08:29 UTC by GitHub Actions
 
 **License**: Apache License 2.0
