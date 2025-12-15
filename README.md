@@ -37,6 +37,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN SEGMENTATION_PAPERS -->
+* **[SSL-MedSAM2: A Semi-supervised Medical Image Segmentation Framework Powered by Few-shot Learning of SAM2](http://arxiv.org/abs/2512.11548v1)** - [Code](https://github.com/naisops/SSL-MedSAM2/tree/main)
 * **[MICCAI STSR 2025 Challenge: Semi-Supervised Teeth and Pulp Segmentation and CBCT-IOS Registration](http://arxiv.org/abs/2512.02867v1)** - [Code](https://github.com/ricoleehduu/STS-Challenge-2025)
 * **[Augment to Augment: Diverse Augmentations Enable Competitive Ultra-Low-Field MRI Enhancement](http://arxiv.org/abs/2511.09366v1)** - [Code](https://github.com/fzimmermann89/low-field-enhancement)
 * **[Benchmark-Ready 3D Anatomical Shape Classification](http://arxiv.org/abs/2511.01613v1)** - [Code](https://github.com/TomasKrsicka/MedShapeNet19-PSPooling)
@@ -102,7 +103,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[OccluNet: Spatio-Temporal Deep Learning for Occlusion Detection on DSA](http://arxiv.org/abs/2508.14286v1)** - [Code](https://github.com/anushka-kore/OccluNet.git)
 * **[Tooth-Diffusion: Guided 3D CBCT Synthesis with Fine-Grained Tooth Conditioning](http://arxiv.org/abs/2508.14276v1)** - [Code](https://github.com/djafar1/tooth-diffusion)
 * **[FIND-Net -- Fourier-Integrated Network with Dictionary Kernels for Metal Artifact Reduction](http://arxiv.org/abs/2508.10617v1)** - [Code](https://github.com/Farid-Tasharofi/FIND-Net)
-* **[MOC: Meta-Optimized Classifier for Few-Shot Whole Slide Image Classification](http://arxiv.org/abs/2508.09967v1)** - [Code](https://github.com/xmed-lab/MOC)
 <!-- END CLASSIFICATION_PAPERS -->
 
 ## 🔄 Image Registration
@@ -147,6 +147,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERATIVE_MODELS_PAPERS -->
+* **[SSL-MedSAM2: A Semi-supervised Medical Image Segmentation Framework Powered by Few-shot Learning of SAM2](http://arxiv.org/abs/2512.11548v1)** - [Code](https://github.com/naisops/SSL-MedSAM2/tree/main)
 * **[MICCAI STSR 2025 Challenge: Semi-Supervised Teeth and Pulp Segmentation and CBCT-IOS Registration](http://arxiv.org/abs/2512.02867v1)** - [Code](https://github.com/ricoleehduu/STS-Challenge-2025)
 * **[Benchmark-Ready 3D Anatomical Shape Classification](http://arxiv.org/abs/2511.01613v1)** - [Code](https://github.com/TomasKrsicka/MedShapeNet19-PSPooling)
 * **[Flip Distribution Alignment VAE for Multi-Phase MRI Synthesis](http://arxiv.org/abs/2510.02970v1)** - [Code](https://github.com/QianMuXiao/FDA-VAE)
@@ -172,6 +173,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-12-14 08:26 UTC by GitHub Actions
+**Last Updated**: 2025-12-15 08:33 UTC by GitHub Actions
 
 **License**: Apache License 2.0
