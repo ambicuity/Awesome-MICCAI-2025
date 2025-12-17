@@ -64,6 +64,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN RECONSTRUCTION_PAPERS -->
+* **[TAT: Task-Adaptive Transformer for All-in-One Medical Image Restoration](http://arxiv.org/abs/2512.14550v1)** - [Code](https://github.com/Yaziwel/TAT)
 * **[US-X Complete: A Multi-Modal Approach to Anatomical 3D Shape Recovery](http://arxiv.org/abs/2511.15600v1)** - [Code](https://github.com/miruna20/US-X-Complete)
 * **[Benchmark-Ready 3D Anatomical Shape Classification](http://arxiv.org/abs/2511.01613v1)** - [Code](https://github.com/TomasKrsicka/MedShapeNet19-PSPooling)
 * **[The Missing Piece: A Case for Pre-Training in 3D Medical Object Detection](http://arxiv.org/abs/2509.15947v1)** - [Code](https://github.com/MIC-DKFZ/nnDetection-finetuning)
@@ -110,6 +111,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN IMAGE_REGISTRATION_PAPERS -->
+* **[TAT: Task-Adaptive Transformer for All-in-One Medical Image Restoration](http://arxiv.org/abs/2512.14550v1)** - [Code](https://github.com/Yaziwel/TAT)
 * **[ProtoEFNet: Dynamic Prototype Learning for Inherently Interpretable Ejection Fraction Estimation in Echocardiography](http://arxiv.org/abs/2512.03339v1)** - [Code](https://github.com/DeepRCL/ProtoEF)
 * **[MICCAI STSR 2025 Challenge: Semi-Supervised Teeth and Pulp Segmentation and CBCT-IOS Registration](http://arxiv.org/abs/2512.02867v1)** - [Code](https://github.com/ricoleehduu/STS-Challenge-2025)
 * **[US-X Complete: A Multi-Modal Approach to Anatomical 3D Shape Recovery](http://arxiv.org/abs/2511.15600v1)** - [Code](https://github.com/miruna20/US-X-Complete)
@@ -147,6 +149,7 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 *This list is automatically generated. See any issues? Please open a pull request!*
 
 <!-- BEGIN GENERATIVE_MODELS_PAPERS -->
+* **[TAT: Task-Adaptive Transformer for All-in-One Medical Image Restoration](http://arxiv.org/abs/2512.14550v1)** - [Code](https://github.com/Yaziwel/TAT)
 * **[SSL-MedSAM2: A Semi-supervised Medical Image Segmentation Framework Powered by Few-shot Learning of SAM2](http://arxiv.org/abs/2512.11548v1)** - [Code](https://github.com/naisops/SSL-MedSAM2/tree/main)
 * **[MICCAI STSR 2025 Challenge: Semi-Supervised Teeth and Pulp Segmentation and CBCT-IOS Registration](http://arxiv.org/abs/2512.02867v1)** - [Code](https://github.com/ricoleehduu/STS-Challenge-2025)
 * **[Benchmark-Ready 3D Anatomical Shape Classification](http://arxiv.org/abs/2511.01613v1)** - [Code](https://github.com/TomasKrsicka/MedShapeNet19-PSPooling)
@@ -155,7 +158,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[U-Mamba2-SSL for Semi-Supervised Tooth and Pulp Segmentation in CBCT](http://arxiv.org/abs/2509.20154v2)** - [Code](https://github.com/zhiqin1998/UMamba2)
 * **[Tooth-Diffusion: Guided 3D CBCT Synthesis with Fine-Grained Tooth Conditioning](http://arxiv.org/abs/2508.14276v1)** - [Code](https://github.com/djafar1/tooth-diffusion)
 * **[Cross-view Generalized Diffusion Model for Sparse-view CT Reconstruction](http://arxiv.org/abs/2508.10313v1)** - [Code](https://github.com/xmed-lab/CvG-Diff)
-* **[Deep Learning Enables Large-Scale Shape and Appearance Modeling in Total-Body DXA Imaging](http://arxiv.org/abs/2508.10132v1)** - [Code](https://github.com/hawaii-ai/dxa-pointplacement)
 <!-- END GENERATIVE_MODELS_PAPERS -->
 
 ## 📚 General
@@ -173,6 +175,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-12-16 08:35 UTC by GitHub Actions
+**Last Updated**: 2025-12-17 08:31 UTC by GitHub Actions
 
 **License**: Apache License 2.0
