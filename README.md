@@ -73,7 +73,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Neural Proteomics Fields for Super-resolved Spatial Proteomics Prediction](http://arxiv.org/abs/2508.17389v1)** - [Code](https://github.com/Bokai-Zhao/NPF)
 * **[Tooth-Diffusion: Guided 3D CBCT Synthesis with Fine-Grained Tooth Conditioning](http://arxiv.org/abs/2508.14276v1)** - [Code](https://github.com/djafar1/tooth-diffusion)
 * **[HierAdaptMR: Cross-Center Cardiac MRI Reconstruction with Hierarchical Feature Adapters](http://arxiv.org/abs/2508.13026v1)** - [Code](https://github.com/Ruru-Xu/HierAdaptMR)
-* **[Cross-view Generalized Diffusion Model for Sparse-view CT Reconstruction](http://arxiv.org/abs/2508.10313v1)** - [Code](https://github.com/xmed-lab/CvG-Diff)
 <!-- END RECONSTRUCTION_PAPERS -->
 
 ## 🏷️ Classification
@@ -157,7 +156,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 * **[Segmentor-Guided Counterfactual Fine-Tuning for Locally Coherent and Targeted Image Synthesis](http://arxiv.org/abs/2509.24913v2)** - [Code](https://github.com/biomedia-mira/seg-cft)
 * **[U-Mamba2-SSL for Semi-Supervised Tooth and Pulp Segmentation in CBCT](http://arxiv.org/abs/2509.20154v2)** - [Code](https://github.com/zhiqin1998/UMamba2)
 * **[Tooth-Diffusion: Guided 3D CBCT Synthesis with Fine-Grained Tooth Conditioning](http://arxiv.org/abs/2508.14276v1)** - [Code](https://github.com/djafar1/tooth-diffusion)
-* **[Cross-view Generalized Diffusion Model for Sparse-view CT Reconstruction](http://arxiv.org/abs/2508.10313v1)** - [Code](https://github.com/xmed-lab/CvG-Diff)
 <!-- END GENERATIVE_MODELS_PAPERS -->
 
 ## 📚 General
@@ -175,6 +173,6 @@ Contributions are welcome! While this list is automatically maintained by a bot 
 
 **Repository Topics**: awesome, awesome-list, miccai, miccai2025, medical-imaging, deep-learning, computer-vision, segmentation, reconstruction, classification, medical-image-analysis, artificial-intelligence
 
-**Last Updated**: 2025-12-21 08:27 UTC by GitHub Actions
+**Last Updated**: 2025-12-22 08:31 UTC by GitHub Actions
 
 **License**: Apache License 2.0
