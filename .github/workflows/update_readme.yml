@@ -53,8 +53,8 @@ jobs:
       with:
         commit_message: 'ci: Auto-update papers list'
         file_pattern: 'README.md'
-        commit_user_name: 'github-actions[bot]'
-        commit_user_email: '41898282+github-actions[bot]@users.noreply.github.com'
+        commit_user_name: 'ambicuity'
+        commit_user_email: 'riteshrana36@gmail.com'
         
     - name: No changes to commit
       if: steps.verify-changed-files.outputs.changed == 'false'
