@@ -1,0 +1,35 @@
+# Labels for Awesome MICCAI 2026 repository
+# These labels can be auto-created using the gh CLI:
+# gh label create "label-name" --description "description" --color "color"
+
+- name: missing-paper
+  description: Paper that was missed by the automation bot
+  color: "0E8A16"
+
+- name: broken-link
+  description: Code repository link is broken or inaccessible
+  color: "D93F0B"
+
+- name: category-fix
+  description: Paper needs to be moved to a different category
+  color: "1D76DB"
+
+- name: bot-related
+  description: Issue related to the automation bot
+  color: "FBCA04"
+
+- name: needs-review
+  description: Requires human review before processing
+  color: "C5DEF5"
+
+- name: duplicate
+  description: This issue or paper already exists
+  color: "CFD3D7"
+
+- name: invalid
+  description: Paper is not from MICCAI 2026 or doesn't meet criteria
+  color: "E4E669"
+
+- name: documentation
+  description: Improvements or additions to documentation
+  color: "0075CA"

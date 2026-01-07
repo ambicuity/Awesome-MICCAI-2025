@@ -1,0 +1,109 @@
+name: Add Missing Paper
+description: Submit a MICCAI 2026 paper that the bot missed
+title: "[Add Paper]: "
+labels: ["missing-paper", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping complete our list! Please provide details about the missing paper.
+        
+        **Requirements:**
+        - Paper must be accepted to MICCAI 2026
+        - Code repository must be publicly accessible
+
+  - type: input
+    id: paper-title
+    attributes:
+      label: Paper Title
+      description: The full title of the paper
+      placeholder: "e.g., Novel Deep Learning Method for Medical Image Analysis"
+    validations:
+      required: true
+
+  - type: input
+    id: arxiv-link
+    attributes:
+      label: arXiv Link
+      description: Direct link to the paper on arXiv
+      placeholder: "https://arxiv.org/abs/2509.XXXXX"
+    validations:
+      required: true
+
+  - type: input
+    id: code-link
+    attributes:
+      label: Code Repository Link
+      description: Link to the public code repository (GitHub, GitLab, or Hugging Face)
+      placeholder: "https://github.com/username/repository"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: miccai-confirmation
+    attributes:
+      label: MICCAI 2026 Confirmation
+      description: Please confirm this paper is accepted to MICCAI 2026
+      options:
+        - label: I confirm this paper is accepted to MICCAI 2026 (mentioned in paper, arXiv comments, or official proceedings)
+          required: true
+
+  - type: checkboxes
+    id: public-repo
+    attributes:
+      label: Public Repository Confirmation
+      description: Please confirm the code repository is publicly accessible
+      options:
+        - label: I confirm the code repository is publicly accessible (not private or restricted)
+          required: true
+
+  - type: dropdown
+    id: primary-category
+    attributes:
+      label: Primary Category
+      description: Which category best describes this paper?
+      options:
+        - Segmentation
+        - Reconstruction
+        - Classification
+        - Image Registration
+        - Domain Adaptation
+        - Generative Models
+        - General
+    validations:
+      required: true
+
+  - type: dropdown
+    id: secondary-category
+    attributes:
+      label: Secondary Category (Optional)
+      description: If the paper fits multiple categories, select a secondary one
+      options:
+        - Not applicable
+        - Segmentation
+        - Reconstruction
+        - Classification
+        - Image Registration
+        - Domain Adaptation
+        - Generative Models
+        - General
+    validations:
+      required: false
+
+  - type: textarea
+    id: justification
+    attributes:
+      label: Justification
+      description: Brief explanation of why this paper belongs in the list and the selected category
+      placeholder: "This paper presents a novel segmentation method for... It was accepted to MICCAI 2026 as indicated by..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: duplicate-check
+    attributes:
+      label: Duplicate Check
+      description: Please confirm you have checked the list
+      options:
+        - label: I have verified this paper is not already in the README
+          required: true

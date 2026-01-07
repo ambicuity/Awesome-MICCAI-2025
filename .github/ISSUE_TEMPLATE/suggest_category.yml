@@ -1,0 +1,79 @@
+name: Suggest Category Change
+description: Suggest a better category for a paper or propose a new category
+title: "[Category]: "
+labels: ["category-fix", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us improve our taxonomy! Suggest category changes or propose new categories.
+
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: Request Type
+      description: What kind of category change are you suggesting?
+      options:
+        - Move paper(s) to a different category
+        - Propose a new category
+        - Both (move papers and create new category)
+    validations:
+      required: true
+
+  - type: textarea
+    id: paper-titles
+    attributes:
+      label: Paper Title(s)
+      description: List the paper(s) affected by this suggestion (one per line)
+      placeholder: |
+        Paper Title 1
+        Paper Title 2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: current-category
+    attributes:
+      label: Current Category
+      description: Where is/are the paper(s) currently listed?
+      options:
+        - Segmentation
+        - Reconstruction
+        - Classification
+        - Image Registration
+        - Domain Adaptation
+        - Generative Models
+        - General
+        - Multiple categories
+        - Not currently listed (new category proposal)
+    validations:
+      required: true
+
+  - type: input
+    id: suggested-category
+    attributes:
+      label: Suggested Category
+      description: Which existing category should the paper(s) be moved to, or what new category do you propose?
+      placeholder: "e.g., Segmentation, or a new category name"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: Reasoning
+      description: Explain why this category change or new category would improve the list
+      placeholder: "This paper is primarily about... rather than... because..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: category-definition
+    attributes:
+      label: New Category Definition (if proposing new)
+      description: If proposing a new category, provide a brief definition and example keywords
+      placeholder: |
+        Definition: Papers focused on...
+        Keywords: keyword1, keyword2, keyword3
+    validations:
+      required: false
