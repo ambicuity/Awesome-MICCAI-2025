@@ -1,0 +1,78 @@
+name: Report Error
+description: Report a mistake in an existing paper entry
+title: "[Error]: "
+labels: ["needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us maintain accuracy! Please provide details about the error you found.
+
+  - type: input
+    id: paper-title
+    attributes:
+      label: Paper Title
+      description: The exact title of the paper with the error
+      placeholder: "e.g., U-Mamba2: Scaling State Space Models for Dental Anatomy Segmentation"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Current Category
+      description: Which category is the paper currently listed under?
+      options:
+        - Segmentation
+        - Reconstruction
+        - Classification
+        - Image Registration
+        - Domain Adaptation
+        - Generative Models
+        - General
+        - Multiple categories
+        - Not sure
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: problem-type
+    attributes:
+      label: Problem Type
+      description: What kind of error did you find? (Select all that apply)
+      options:
+        - label: Broken code repository link
+        - label: Wrong category
+        - label: Not a MICCAI 2026 paper
+        - label: Duplicate entry
+        - label: Incorrect paper information (title, link, etc.)
+        - label: Other
+    validations:
+      required: true
+
+  - type: input
+    id: correct-link
+    attributes:
+      label: Correct Link (if applicable)
+      description: If the code link is broken or wrong, provide the correct URL
+      placeholder: "https://github.com/username/repository"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Any other details that would help us fix this issue
+      placeholder: "Provide context, evidence, or suggestions..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      description: Please confirm you have checked the following
+      options:
+        - label: I have verified this paper entry exists in the current README
+          required: true
