@@ -35,7 +35,7 @@
 
 ### Required for Paper Additions/Modifications
 
-- [ ] I have verified the paper is accepted to **MICCAI 2026**
+- [ ] I have verified the paper is from **MICCAI 2026**
 - [ ] I have verified the code repository link works and is **publicly accessible**
 - [ ] I have verified the paper is in the **correct category**
 - [ ] This paper is **not a duplicate** of an existing entry
@@ -45,7 +45,7 @@
 - [ ] I am **NOT** editing auto-generated content (sections between `<!-- BEGIN ... -->` and `<!-- END ... -->` markers)
 - [ ] I understand that edits to auto-generated sections **will be overwritten** by the bot
 
-## Evidence of MICCAI 2026 Acceptance
+## Evidence of MICCAI 2026 Submission
 
 <!-- Provide evidence that this paper is from MICCAI 2026 (e.g., link to arXiv comment, conference proceedings, etc.) -->
 

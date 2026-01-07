@@ -31,7 +31,7 @@ Human contributions are welcome for **quality control and oversight**. Your help
 
 #### ✅ Requirements for All Contributions
 
-1. **Paper must be accepted to MICCAI 2026** — We only list papers from the 2026 conference
+1. **Paper must be from MICCAI 2026** — We only list papers submitted to or accepted at the 2026 conference
 2. **Code repository must be public** — Private repos cannot be verified
 3. **No duplicate entries** — Check the list before submitting
 4. **One paper per PR** — Keep changes focused and reviewable

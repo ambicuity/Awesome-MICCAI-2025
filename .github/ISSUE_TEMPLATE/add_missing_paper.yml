@@ -43,9 +43,9 @@ body:
     id: miccai-confirmation
     attributes:
       label: MICCAI 2026 Confirmation
-      description: Please confirm this paper is accepted to MICCAI 2026
+      description: Please confirm this paper is from MICCAI 2026
       options:
-        - label: I confirm this paper is accepted to MICCAI 2026 (mentioned in paper, arXiv comments, or official proceedings)
+        - label: I confirm this paper is from MICCAI 2026 (mentioned in paper, arXiv comments, or official proceedings)
           required: true
 
   - type: checkboxes

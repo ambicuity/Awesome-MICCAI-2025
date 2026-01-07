@@ -43,7 +43,7 @@ body:
       options:
         - label: Broken code repository link
         - label: Wrong category
-        - label: Not actually a MICCAI 2026 paper
+        - label: Not a MICCAI 2026 paper
         - label: Duplicate entry
         - label: Incorrect paper information (title, link, etc.)
         - label: Other
