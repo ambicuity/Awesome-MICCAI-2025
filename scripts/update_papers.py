@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Automated script to update the Awesome MICCAI 2025 list by finding papers on arXiv
+Automated script to update the Awesome MICCAI 2026 list by finding papers on arXiv
 that have public code repositories and categorizing them by topic.
 """
 
@@ -72,14 +72,14 @@ def categorize_paper(title: str, abstract: str) -> List[str]:
 
 
 def search_miccai_papers() -> List[Dict]:
-    """Search for MICCAI 2025 papers on arXiv."""
-    print("Searching for MICCAI 2025 papers on arXiv...")
+    """Search for MICCAI 2026 papers on arXiv."""
+    print("Searching for MICCAI 2026 papers on arXiv...")
     
-    # Search for papers with "MICCAI 2025" in title, abstract, or comments
+    # Search for papers with "MICCAI 2026" in title, abstract, or comments
     search_queries = [
-        'ti:"MICCAI 2025"',
-        'abs:"MICCAI 2025"',
-        'co:"MICCAI 2025"'
+        'ti:"MICCAI 2026"',
+        'abs:"MICCAI 2026"',
+        'co:"MICCAI 2026"'
     ]
     
     all_papers = []
@@ -270,7 +270,7 @@ def update_readme(papers: List[Dict]) -> None:
 
 def main():
     """Main function to run the paper update process."""
-    print("Starting automated update of Awesome MICCAI 2025 list...")
+    print("Starting automated update of Awesome MICCAI 2026 list...")
     
     # Search for papers
     papers = search_miccai_papers()
@@ -278,7 +278,7 @@ def main():
     if not papers:
         print("No papers with code repositories found.")
         print("This could be due to:")
-        print("1. No new MICCAI 2025 papers with code available on arXiv")
+        print("1. No new MICCAI 2026 papers with code available on arXiv")
         print("2. Network connectivity issues preventing arXiv access")
         print("3. Changes in arXiv API or search patterns")
         print("\nWill still update timestamp in README.md.")
